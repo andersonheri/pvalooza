@@ -6,10 +6,16 @@ lang: pt-BR
 
 website:
   title: "PVALOOZA"
-  site-url: https://ahenriquecp.com/curso-acr
+  site-url: https://ahenriquecp.com/pvalooza
   description: "Curso online de texto, R e LLMs com o pacote acR · 4 a 8 de janeiro de 2027"
   page-navigation: true
   favicon: img/favicon.svg
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+    creator: "@ande_henri"
+    site: "@ande_henri"
+  image: img/og.png
   navbar:
     logo: img/logo.svg
     background: primary
@@ -37,7 +43,7 @@ website:
         href: https://ahenriquecp.com/acR/
         aria-label: "Pacote acR"
   page-footer:
-    left: "Anderson Henrique · CEM/USP"
+    left: "Anderson Henrique · CEM/USP · Evento acadêmico independente, sem relação com o Lollapalooza"
     right: "Feito com [Quarto](https://quarto.org)"
 
 format:

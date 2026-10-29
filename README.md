@@ -1,10 +1,10 @@
-# curso-acr
+# pvalooza
 
-Site do curso **Festival Pvalooza (Edição 1): Análise de Conteúdo Automatizada em R** (online, 4 a 8 de janeiro de 2027), com o pacote [acR](https://ahenriquecp.com/acR/).
+Site do curso **Festival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R** (online, 4 a 8 de janeiro de 2027), com o pacote [acR](https://ahenriquecp.com/acR/).
 
 Este repositório contém **só o site de apoio** (programa, tutoriais de preparação e FAQ). Slides, scripts e dados ficam no repositório privado do curso, aberto a quem for sorteado(a).
 
-- Site: https://ahenriquecp.com/curso-acr
+- Site: https://ahenriquecp.com/pvalooza
 - Docente: Anderson Henrique (CEM/USP)
 
 ## Manutenção

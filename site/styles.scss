@@ -127,3 +127,72 @@ main.content > .pv-hero { margin-top: 0; }
 .sobre-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.6rem 0 1.2rem; }
 .sobre-links a { background: #fff; border: 2px solid $noite; color: $noite; text-decoration: none; padding: 0.4rem 0.95rem; font-weight: 500; font-size: 0.95rem; transition: all .15s; }
 .sobre-links a:hover { background: $rosa; border-color: $rosa; color: $noite; transform: translateY(-2px); }
+
+// =====================================================================================
+// Estilo festival (linguagem de cartaz de line-up; elementos originais)
+// =====================================================================================
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.pv-faixa { background: $amarelo; color: $noite; overflow: hidden; white-space: nowrap; border-bottom: 3px solid $noite;
+  margin: 0 calc(50% - 50vw); font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: 0.12em; font-size: 1.25rem; }
+.pv-faixa .trilho { display: inline-flex; animation: pv-rola 60s linear infinite; }
+.pv-faixa span { padding: 0.3rem 0; }
+.pv-faixa i { font-style: normal; color: $rosa; padding: 0 0.35rem; }
+@keyframes pv-rola { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.pv-hero { padding-top: 2.6rem; }
+.pv-doodle { position: absolute !important; z-index: 0 !important; opacity: 0.9; pointer-events: none; }
+.pv-doodle.d1 { width: 64px; left: 7%; top: 90px; transform: rotate(-14deg); }
+.pv-doodle.d2 { width: 56px; right: 9%; top: 70px; transform: rotate(12deg); }
+.pv-doodle.d3 { width: 110px; left: 4%; top: 330px; opacity: .8; }
+.pv-doodle.d4 { width: 46px; right: 6%; top: 360px; transform: rotate(10deg); }
+.pv-doodle.d5 { width: 70px; right: 15%; top: 220px; opacity: .8; }
+@media (max-width: 700px) { .pv-doodle.d3, .pv-doodle.d5 { display: none; } .pv-doodle { width: 38px !important; } }
+
+.pv-festival { letter-spacing: 0.35em !important; font-size: clamp(1.1rem, 4vw, 1.9rem) !important; padding-left: 0.35em !important; }
+
+// Adesivo (sticker) de estrela, original
+.pv-adesivo { position: absolute !important; right: max(1rem, calc(50% - 470px)); top: 140px; width: 168px; height: 168px; z-index: 3 !important;
+  background: $rosa; color: $noite; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  clip-path: polygon(50% 0%, 59% 11%, 72% 5%, 76% 19%, 91% 18%, 88% 33%, 100% 40%, 91% 52%, 98% 65%, 84% 69%, 83% 84%, 69% 83%, 60% 96%, 50% 87%, 40% 96%, 31% 83%, 17% 84%, 16% 69%, 2% 65%, 9% 52%, 0% 40%, 12% 33%, 9% 18%, 24% 19%, 28% 5%, 41% 11%);
+  transform: rotate(12deg); animation: pv-balanca 3.6s ease-in-out infinite; filter: drop-shadow(0 6px 0 rgba(0,0,0,.35)); }
+.pv-adesivo .topo { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .3em; font-size: .8rem; }
+.pv-adesivo .meio { font-family: "Permanent Marker", "Bebas Neue", Impact, cursive; font-size: .95rem; line-height: 1.05; margin: .15rem 0; }
+.pv-adesivo .base { font-family: "Anton", Impact, sans-serif; font-size: 1.25rem; letter-spacing: .05em; }
+@keyframes pv-balanca { 0%,100% { transform: rotate(10deg) scale(1); } 50% { transform: rotate(15deg) scale(1.05); } }
+@media (max-width: 760px) { .pv-adesivo { position: relative !important; right: auto; top: auto; margin: 0 auto 1rem; width: 150px; height: 150px; } }
+@media (prefers-reduced-motion: reduce) { .pv-faixa .trilho, .pv-adesivo { animation: none; } }
+
+// Line-up em cartaz
+.pv-lineup-cartaz { background: $gelo; border: 4px solid $noite; padding: 1.4rem 1rem 1.6rem; margin: 2rem 0; text-align: center; position: relative; box-shadow: 10px 10px 0 $rosa; }
+.pv-sobre-titulo { font-family: "Anton", Impact, sans-serif; letter-spacing: .4em; font-size: 1.1rem; margin: 0 0 .8rem !important; color: $noite; padding-left: .4em; }
+.pv-set { margin: .2rem 0 1.1rem; display: flex; flex-direction: column; align-items: center; }
+.pv-set .dia { font-family: "Space Grotesk", sans-serif; font-weight: 700; letter-spacing: .25em; font-size: .72rem; background: $noite; color: $amarelo; padding: .1rem .6rem; }
+.pv-set .atracao { font-family: "Anton", Impact, sans-serif; line-height: 1; letter-spacing: .02em; text-transform: uppercase; }
+.pv-set .a1 { font-size: clamp(2.6rem, 11vw, 5.4rem); color: $noite; }
+.pv-set .a2 { font-size: clamp(2.2rem, 9vw, 4.4rem); color: $rosa; }
+.pv-set .a3 { font-size: clamp(3rem, 13vw, 6.2rem); color: $noite; -webkit-text-stroke: 0; }
+.pv-set .a4 { font-size: clamp(3rem, 13vw, 6.2rem); color: $rosa; }
+.pv-set .a5 { font-size: clamp(2.2rem, 9vw, 4.4rem); color: $noite; }
+.pv-set .under { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .12em; font-size: 1.05rem; color: #3b3f66; text-transform: uppercase; }
+
+// Palcos
+.pv-palcos { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.4rem 0 2rem; }
+.palco { padding: 1.1rem 1.2rem; color: $noite; position: relative; border: 3px solid $noite; box-shadow: 6px 6px 0 $noite; }
+.palco.manha { background: $amarelo; } .palco.noite { background: $ciano; }
+.palco .rotulo { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .4em; font-size: 1rem; }
+.palco .nome { font-family: "Anton", Impact, sans-serif; font-size: 3.2rem; line-height: 1; }
+.palco .hora { font-family: "Bebas Neue", Impact, sans-serif; font-size: 1.7rem; letter-spacing: .06em; }
+.palco p { margin: .2rem 0 0; font-size: .9rem; }
+
+.pv-aviso-legal { border: 2px dashed $noite; background: #fff; padding: .8rem 1rem; margin: 2rem 0 1rem; font-size: .85rem; color: #3b3f66; }
+
+// Cada atração do line-up em uma fonte diferente (linguagem de cartaz de festival; fontes livres do Google Fonts)
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=League+Gothic&family=Alfa+Slab+One&family=Bungee&display=swap');
+.pv-set .a1 { font-family: "Anton", Impact, sans-serif; }
+.pv-set .a2 { font-family: "Bowlby One", Impact, sans-serif; font-size: clamp(1.9rem, 7.4vw, 3.6rem); letter-spacing: 0; }
+.pv-set .a3 { font-family: "League Gothic", Impact, sans-serif; font-size: clamp(4rem, 17vw, 8rem); letter-spacing: .03em; }
+.pv-set .a4 { font-family: "Alfa Slab One", Georgia, serif; font-size: clamp(2.8rem, 12vw, 5.6rem); letter-spacing: 0; }
+.pv-set .a5 { font-family: "Bungee", Impact, sans-serif; font-size: clamp(1.7rem, 6.4vw, 3.3rem); letter-spacing: 0; }
+.pv-set .atracao { transform: rotate(-1.2deg); }
+.pv-set:nth-of-type(even) .atracao { transform: rotate(1.2deg); }

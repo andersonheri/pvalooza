@@ -39,4 +39,4 @@ Sou autor do [acR](https://ahenriquecp.com/acR/), pacote em R para análise de c
 </div>
 ```
 
-Dúvidas sobre o curso: abra uma [Issue](https://github.com/andersonheri/curso-acr/issues) no repositório do site.
+Dúvidas sobre o curso: abra uma [Issue](https://github.com/andersonheri/pvalooza/issues) no repositório do site.

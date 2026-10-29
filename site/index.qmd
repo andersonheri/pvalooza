@@ -1,17 +1,28 @@
 ---
-pagetitle: "Festival Pvalooza (Edição 1): Análise de Conteúdo Automatizada em R"
+pagetitle: "Festival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R"
 toc: false
 page-layout: full
 ---
 
 ```{=html}
+<div class="pv-faixa" aria-hidden="true"><div class="trilho"><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> </span><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> </span></div></div>
 <section class="pv-hero">
-  <p class="pv-festival">FESTIVAL</p>
+  <svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg>
+<svg class="pv-doodle d2" viewBox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"/></svg>
+<svg class="pv-doodle d3" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"/></svg>
+<svg class="pv-doodle d4" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 6v48M6 30h48M13 13l34 34M47 13L13 47" stroke="#FF2E93" stroke-width="4" stroke-linecap="round"/></svg>
+<svg class="pv-doodle d5" viewBox="0 0 60 60" aria-hidden="true"><circle cx="30" cy="30" r="22" fill="none" stroke="#19E3D3" stroke-width="3" stroke-dasharray="4 6"/><circle cx="22" cy="25" r="2.5" fill="#19E3D3"/><circle cx="38" cy="25" r="2.5" fill="#19E3D3"/><path d="M20 36c6 8 14 8 20 0" fill="none" stroke="#19E3D3" stroke-width="3" stroke-linecap="round"/></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS</p>
   <span class="pv-titulo">PVALOOZA</span>
   <p class="pv-tag">Onde os dados sobem ao palco</p>
+  <div class="pv-adesivo" role="note" aria-label="Edição Vitória da Reeleição do Lula 2026">
+    <span class="topo">EDIÇÃO</span>
+    <span class="meio">VITÓRIA DA REELEIÇÃO<br>DO LULA</span>
+    <span class="base">2026 ★</span>
+  </div>
   <div class="pv-ingresso">
     <div class="corpo">
-      <div class="ed">EDIÇÃO 01</div>
+      <div class="ed">EDIÇÃO 1</div>
       <div class="nome">ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R</div>
     </div>
     <div class="canhoto">Nº1</div>
@@ -23,11 +34,27 @@ page-layout: full
   </div>
   <a class="pv-botao" href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">GARANTA SUA VAGA</a>
   <a class="pv-botao secundario" href="programa.html">VER O PROGRAMA</a>
-  <svg class="pv-curva" viewBox="0 232 680 242" preserveAspectRatio="xMidYMax meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Histograma com curva normal"><g transform="translate(0,0)"><path d="M40 470L76 465.7L76 470Z" fill="#FFD400"/><path d="M80 470L80 464.9L116 451.6L116 470Z" fill="#FFD400"/><path d="M120 470L120 449.7L156 426.6L156 470Z" fill="#FF2E93"/><path d="M160 470L160 423.4L196 391.1L196 470Z" fill="#FF2E93"/><path d="M200 470L200 387.1L236 348.2L236 470Z" fill="#FF2E93"/><path d="M240 470L240 343.6L276 305.6L276 470Z" fill="#FF2E93"/><path d="M280 470L280 301.6L316 275.7L316 470Z" fill="#FF2E93"/><path d="M320 470L320 274.3L340 270L356 272.9L356 470Z" fill="#FF2E93"/><path d="M360 470L360 274.3L396 298.1L396 470Z" fill="#FF2E93"/><path d="M400 470L400 301.6L436 339.3L436 470Z" fill="#FF2E93"/><path d="M440 470L440 343.6L476 383L476 470Z" fill="#FF2E93"/><path d="M480 470L480 387.1L516 420.1L516 470Z" fill="#FF2E93"/><path d="M520 470L520 423.4L556 447.5L556 470Z" fill="#FF2E93"/><path d="M560 470L560 449.7L596 464L596 470Z" fill="#FFD400"/><path d="M600 470L600 464.9L636 469.7L636 470Z" fill="#FFD400"/><line x1="0" y1="470" x2="680" y2="470" stroke="#F5F7FF" stroke-width="1" opacity="0.5"/><path d="M0 470L40 470C190 470 260 270 340 270C420 270 490 470 640 470L680 470" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="640" y="418" text-anchor="end" font-family="Space Grotesk, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFD400">p &lt; 0,05</text><line x1="615" y1="428" x2="615" y2="454" stroke="#FFD400" stroke-width="1" stroke-dasharray="3 3"/></g></svg>
+  <svg class="pv-curva" viewBox="0 232 680 242" preserveAspectRatio="xMidYMax meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Histograma com curva normal"><path d="M40 470L76 465.7L76 470Z" fill="#FFD400"/><path d="M80 470L80 464.9L116 451.6L116 470Z" fill="#FFD400"/><path d="M120 470L120 449.7L156 426.6L156 470Z" fill="#FF2E93"/><path d="M160 470L160 423.4L196 391.1L196 470Z" fill="#FF2E93"/><path d="M200 470L200 387.1L236 348.2L236 470Z" fill="#FF2E93"/><path d="M240 470L240 343.6L276 305.6L276 470Z" fill="#FF2E93"/><path d="M280 470L280 301.6L316 275.7L316 470Z" fill="#FF2E93"/><path d="M320 470L320 274.3L340 270L356 272.9L356 470Z" fill="#FF2E93"/><path d="M360 470L360 274.3L396 298.1L396 470Z" fill="#FF2E93"/><path d="M400 470L400 301.6L436 339.3L436 470Z" fill="#FF2E93"/><path d="M440 470L440 343.6L476 383L476 470Z" fill="#FF2E93"/><path d="M480 470L480 387.1L516 420.1L516 470Z" fill="#FF2E93"/><path d="M520 470L520 423.4L556 447.5L556 470Z" fill="#FF2E93"/><path d="M560 470L560 449.7L596 464L596 470Z" fill="#FFD400"/><path d="M600 470L600 464.9L636 469.7L636 470Z" fill="#FFD400"/><line x1="0" y1="470" x2="680" y2="470" stroke="#F5F7FF" stroke-width="1" opacity="0.5"/><path d="M0 470L40 470C190 470 260 270 340 270C420 270 490 470 640 470L680 470" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="640" y="418" text-anchor="end" font-family="Space Grotesk, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFD400">p &lt; 0,05</text><line x1="615" y1="428" x2="615" y2="454" stroke="#FFD400" stroke-width="1" stroke-dasharray="3 3"/></svg>
 </section>
 ```
 
 ::: {.pv-conteudo}
+
+```{=html}
+<section class="pv-lineup-cartaz">
+  <p class="pv-sobre-titulo">LINE-UP</p>
+  <div class="pv-set"><span class="dia">SEG · 4/1</span><span class="atracao a1">CORPUS</span><span class="under">importação · xlsx, docx, pdf · discursos da Câmara</span></div>
+  <div class="pv-set"><span class="dia">TER · 5/1</span><span class="atracao a2">TEXTO LIMPO</span><span class="under">tokens · stopwords · TF-IDF · KWIC · dicionários</span></div>
+  <div class="pv-set"><span class="dia">QUA · 6/1</span><span class="atracao a3">LDA</span><span class="under">keyness · coocorrência · Wordscores · tópicos</span></div>
+  <div class="pv-set"><span class="dia">QUI · 7/1</span><span class="atracao a4">LLM</span><span class="under">codebook · prompts · classificação · custo · riscos</span></div>
+  <div class="pv-set"><span class="dia">SEX · 8/1</span><span class="atracao a5">VALIDAÇÃO</span><span class="under">kappa · Krippendorff · Gwet · relatório · mini-projeto</span></div>
+</section>
+
+<section class="pv-palcos">
+  <div class="palco manha"><div class="rotulo">PALCO</div><div class="nome">MANHÃ</div><div class="hora">9h às 12h</div><p>80 vagas · horário de Brasília</p></div>
+  <div class="palco noite"><div class="rotulo">PALCO</div><div class="nome">NOITE</div><div class="hora">18h30 às 21h30</div><p>80 vagas · horário de Brasília</p></div>
+</section>
+```
 
 ## Em poucas linhas
 
@@ -36,17 +63,9 @@ Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `
 ```{=html}
 <div class="pv-grade">
   <div class="pv-card"><div class="rotulo">Quando</div><div class="valor">4 a 8 JAN</div><p>De 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.</p></div>
-  <div class="pv-card"><div class="rotulo">Turnos (Brasília)</div><div class="valor">9H–12H · 18H30–21H30</div><p>Mesmo conteúdo nos dois. Aulas ao vivo, sem gravação.</p></div>
+  <div class="pv-card"><div class="rotulo">Ingresso</div><div class="valor">GRATUITO</div><p>Sem custo e sem certificado nesta edição. Aulas ao vivo, sem gravação.</p></div>
   <div class="pv-card"><div class="rotulo">Vagas</div><div class="valor">160 · SORTEIO</div><p>Entre inscritos elegíveis, com cotas de região, nível e cor ou raça, e paridade de gênero.</p></div>
   <div class="pv-card"><div class="rotulo">Para quem</div><div class="valor">R BÁSICO+</div><p>Graduação, pós e profissionais, com um projeto que envolva texto.</p></div>
-</div>
-
-<div class="pv-lineup">
-  <div class="topo">QUALITATIVA + QUANTITATIVA · PACOTE acR</div>
-  <div class="linha">CORPUS · LIMPEZA · CODEBOOK</div>
-  <div class="linha">CODIFICAÇÃO QUALITATIVA COM LLM</div>
-  <div class="linha">SENTIMENTO · LDA · AGRUPAMENTO</div>
-  <div class="linha">VALIDAÇÃO E RELATÓRIO DE MÉTODO</div>
 </div>
 ```
 
@@ -69,7 +88,7 @@ Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `
   <div class="pv-card"><div class="rotulo">Formato</div><p>Prática guiada em cada bloco, com scripts prontos e um corpus real de discursos da Câmara dos Deputados.</p></div>
   <div class="pv-card"><div class="rotulo">Apoio</div><p>Dúvidas pelas <b>Discussions</b> e <b>Issues</b> do repositório no GitHub (conta gratuita).</p></div>
   <div class="pv-card"><div class="rotulo">Sem certificado</div><p>Não haverá certificado nesta edição. Há uma declaração de participação.</p></div>
-  <div class="pv-card"><div class="rotulo">Docente</div><p>Anderson Henrique (CEM/USP), autor do pacote acR.</p></div>
+  <div class="pv-card"><div class="rotulo">Docente</div><p>Anderson Henrique (CEM/USP), autor do pacote acR. <a href="sobre.html">Sobre mim</a></p></div>
 </div>
 ```
 
@@ -80,8 +99,13 @@ As **instruções de preparação serão enviadas por e-mail, mais perto do curs
 1. [Crie sua conta no GitHub](tutorial_github.html)
 2. [Instale R, RStudio e os pacotes](tutorial_instalacao.html)
 3. [Crie sua chave de API (Gemini ou Groq)](tutorial_api_gemini_groq.html)
-4. Se algo falhar, abra uma Issue no [repositório do site](https://github.com/andersonheri/curso-acr/issues)
 
 Veja também o [programa completo](programa.html) e o [roteiro dia a dia](dias.html).
+
+```{=html}
+<div class="pv-aviso-legal">
+  <b>Evento acadêmico independente.</b> "Pvalooza" é uma brincadeira com o p-valor e com a linguagem dos festivais de música. Não há relação com o Lollapalooza nem com seus organizadores, e nenhuma marca, logotipo ou imagem deles é usada aqui. Ilustrações e identidade visual originais.
+</div>
+```
 
 :::

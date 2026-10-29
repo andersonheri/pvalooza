@@ -8,7 +8,7 @@
 
 | Item | Descrição |
 |---|---|
-| **Evento** | Festival Pvalooza (Edição 1): Análise de Conteúdo Automatizada em R |
+| **Evento** | Festival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R |
 | **Título do curso** | Análise de Conteúdo Automatizada em R: texto, R e LLMs |
 | **Coordenação e docência** | Anderson Henrique (CEM/USP) |
 | **Apoio** | 2 monitores (a definir) |
@@ -20,7 +20,7 @@
 | **Público** | Estudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com projeto que envolva texto |
 | **Pré-requisitos** | R básico/intermediário (importar dados, usar pacotes, rodar scripts), computador com R e RStudio, conta Google e conta no GitHub |
 | **Software** | R (≥ 4.1), RStudio, pacote **acR**, `renv` para versões fixas dos pacotes |
-| **Materiais** | Repositório privado `acr-curso-2027` (aberto ao público após o curso) e site de apoio em ahenriquecp.com/curso-acr |
+| **Materiais** | Repositório privado `acr-curso-2027` (aberto ao público após o curso) e site de apoio em ahenriquecp.com/pvalooza |
 | **Suporte** | Discussions e Issues do repositório no GitHub |
 | **Gravação** | As aulas não serão gravadas |
 | **Certificação** | Não há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda |
