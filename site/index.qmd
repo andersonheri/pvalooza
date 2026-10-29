@@ -17,7 +17,7 @@ page-layout: full
     <div class="canhoto">Nº1</div>
   </div>
   <div class="pv-meta">
-    <span><b>11 a 15 de janeiro de 2027</b></span>
+    <span><b>4 a 8 de janeiro de 2027</b></span>
     <span><b>15 horas</b> · online, pelo Google Meet</span>
     <span><b>160 vagas</b> · 80 por turno</span>
   </div>
@@ -35,7 +35,7 @@ Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `
 
 ```{=html}
 <div class="pv-grade">
-  <div class="pv-card"><div class="rotulo">Quando</div><div class="valor">11 a 15 JAN</div><p>De 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.</p></div>
+  <div class="pv-card"><div class="rotulo">Quando</div><div class="valor">4 a 8 JAN</div><p>De 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.</p></div>
   <div class="pv-card"><div class="rotulo">Turnos (Brasília)</div><div class="valor">9H–12H · 18H30–21H30</div><p>Mesmo conteúdo nos dois. Aulas ao vivo, sem gravação.</p></div>
   <div class="pv-card"><div class="rotulo">Vagas</div><div class="valor">160 · SORTEIO</div><p>Entre inscritos elegíveis, com cotas de região, nível e cor ou raça, e paridade de gênero.</p></div>
   <div class="pv-card"><div class="rotulo">Para quem</div><div class="valor">R BÁSICO+</div><p>Graduação, pós e profissionais, com um projeto que envolva texto.</p></div>
@@ -58,7 +58,7 @@ Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `
   <li><div class="data">Até 20 de novembro <small>resultado do sorteio, por e-mail</small></div></li>
   <li><div class="data">Até 15 de dezembro <small>sorteados confirmam interesse</small></div></li>
   <li><div class="data">Até 27 de dezembro <small>lista final</small></div></li>
-  <li><div class="data">11 a 15 de janeiro de 2027 <small>o festival</small></div></li>
+  <li><div class="data">4 a 8 de janeiro de 2027 <small>o festival</small></div></li>
 </ul>
 ```
 

@@ -13,7 +13,7 @@
 | **Coordenação e docência** | Anderson Henrique (CEM/USP) |
 | **Apoio** | 2 monitores (a definir) |
 | **Modalidade** | Online, síncrona, pelo Google Meet |
-| **Datas** | 11 a 15 de janeiro de 2027 (segunda a sexta), a confirmar em dezembro de 2026 |
+| **Datas** | 4 a 8 de janeiro de 2027 (segunda a sexta), a confirmar em dezembro de 2026 |
 | **Carga horária** | 15 horas (5 encontros de 3h) |
 | **Turnos** | Manhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Conteúdo idêntico nos dois turnos |
 | **Vagas** | 160 (80 por turno), por sorteio entre inscritos elegíveis, com cotas por região, nível acadêmico e raça, e paridade de gênero |
