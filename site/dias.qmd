@@ -1,0 +1,49 @@
+---
+pagetitle: "Dia a dia"
+toc: false
+---
+
+# Dia a dia
+
+Cada encontro tem 3 blocos e 2 pausas de 10 minutos, com o mesmo conteúdo nos dois turnos. Os slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 0 · Teste técnico
+Opcional, 1h. Instalação, GitHub e chave de API.
+:::
+:::
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 1 · Fundamentos e corpus
+Da análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares.
+:::
+:::
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 2 · Pré-processamento e descrição
+Tokenização, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.
+:::
+:::
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 3 · Comparação e modelagem
+*Keyness*, coocorrência, Wordscores, análise de correspondência, agrupamento e LDA.
+:::
+:::
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 4 · LLMs
+Codebook, prompts, chaves de API, classificação em lote, custo e riscos.
+:::
+:::
+::: {.g-col-12 .g-col-md-4}
+::: {.cartao-dia}
+### Dia 5 · Validação e mini-projeto
+Amostragem, kappa, Krippendorff, Gwet, métricas de classificação e reprodutibilidade.
+:::
+:::
+:::
+
+O horário detalhado de cada dia está no [programa](programa.qmd#programação-por-dia).

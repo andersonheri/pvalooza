@@ -1,0 +1,5 @@
+---
+pagetitle: "Tutorial: instalação"
+---
+
+{{< include ../docs/tutorial_instalacao.md >}}

@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+// Paleta do layout dos slides (Beamer, SICSS-Brazil 2026)
+$azul-uni: #1F4E79;
+$azul-claro: #447296;
+$laranja: #C85A1E;
+$verde: #006E50;
+
+$primary: $azul-uni;
+$link-color: $azul-claro;
+$navbar-bg: $azul-uni;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+$font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+/*-- scss:rules --*/
+.destaque {
+  border-left: 5px solid $laranja;
+  background: #fbf3ee;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+}
+
+.cartao-dia {
+  border: 1px solid #d5dde5;
+  border-top: 4px solid $azul-uni;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  height: 100%;
+}
+.cartao-dia h3 { margin-top: 0; font-size: 1.1rem; color: $azul-uni; }
+
+h1, h2, h3 { color: $azul-uni; }
+table { font-size: 0.95rem; }

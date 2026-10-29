@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: pt-BR
+
+website:
+  title: "Análise de Conteúdo Automatizado"
+  site-url: https://ahenriquecp.com/curso-acr
+  description: "Curso online de texto, R e LLMs com o pacote acR · 11 a 15 de janeiro de 2027"
+  page-navigation: true
+  navbar:
+    background: primary
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Programa"
+        href: programa.qmd
+      - text: "Preparação"
+        menu:
+          - text: "1. Conta no GitHub"
+            href: tutorial_github.qmd
+          - text: "2. R, RStudio e pacotes"
+            href: tutorial_instalacao.qmd
+          - text: "3. Chaves de API"
+            href: tutorial_api_gemini_groq.qmd
+      - text: "Dia a dia"
+        href: dias.qmd
+      - text: "FAQ"
+        href: faq.qmd
+    right:
+      - icon: box-seam
+        href: https://ahenriquecp.com/acR/
+        aria-label: "Pacote acR"
+  page-footer:
+    left: "Anderson Henrique · CEM/USP"
+    right: "Feito com [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    toc-title: "Nesta página"
+    code-copy: true
+    smooth-scroll: true

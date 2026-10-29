@@ -1,0 +1,60 @@
+---
+pagetitle: "Análise de Conteúdo Automatizado: texto, R e LLMs"
+toc: false
+---
+
+# Festival Pvalooza
+
+## Edição 01: Análise de Conteúdo com LLM
+
+**Texto, R e LLMs com o pacote [acR](https://ahenriquecp.com/acR/)**
+
+Curso online · **11 a 15 de janeiro de 2027** (datas a confirmar em dezembro de 2026) · 15 horas · Google Meet
+
+| Turno | Horário (Brasília) |
+|---|---|
+| Manhã | 9h às 12h |
+| Noite | 18h30 às 21h30 |
+
+Docente: Anderson Henrique (CEM/USP). Há 160 vagas (80 por turno), preenchidas por sorteio entre inscritos elegíveis.
+
+::: {.destaque}
+**Inscrições até 15 de novembro de 2026:** [formulário de inscrição](https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform). O resultado do sorteio será enviado por e-mail.
+:::
+
+| Etapa | Data |
+|---|---|
+| Inscrições | até 15 de novembro de 2026 |
+| Resultado do sorteio, por e-mail | até 20 de novembro de 2026 |
+| Sorteados confirmam interesse | até 15 de dezembro de 2026 |
+| Lista final | até 27 de dezembro de 2026 |
+
+O sorteio é feito entre inscritos elegíveis, com cotas de região, nível acadêmico e cor ou raça, e paridade de gênero.
+
+## O que você vai aprender
+
+Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `.docx` e `.pdf`, montar um corpus, descrever e comparar textos, e classificá-los com um modelo de linguagem (LLM), validando o resultado contra codificação humana.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+::: {.cartao-dia}
+### Para quem é
+Estudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com um projeto que envolva texto e **R básico ou intermediário**.
+:::
+:::
+::: {.g-col-12 .g-col-md-6}
+::: {.cartao-dia}
+### Como funciona
+Aulas ao vivo com prática guiada, sem gravação. Dúvidas pelas Discussions e Issues do repositório no GitHub. Sem certificado nesta edição.
+:::
+:::
+:::
+
+## Prepare-se
+
+1. [Crie sua conta no GitHub](tutorial_github.qmd)
+2. [Instale R, RStudio e os pacotes](tutorial_instalacao.qmd)
+3. [Crie sua chave de API (Gemini ou Groq)](tutorial_api_gemini_groq.qmd)
+4. Participe do **dia 0** (1h, opcional), se algo falhar
+
+Veja o [programa completo](programa.qmd) e o [roteiro dia a dia](dias.qmd).

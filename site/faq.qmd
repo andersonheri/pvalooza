@@ -1,0 +1,5 @@
+---
+pagetitle: "FAQ"
+---
+
+{{< include ../docs/faq.md >}}
