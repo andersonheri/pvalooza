@@ -196,3 +196,112 @@ main.content > .pv-hero { margin-top: 0; }
 .pv-set .a5 { font-family: "Bungee", Impact, sans-serif; font-size: clamp(1.7rem, 6.4vw, 3.3rem); letter-spacing: 0; }
 .pv-set .atracao { transform: rotate(-1.2deg); }
 .pv-set:nth-of-type(even) .atracao { transform: rotate(1.2deg); }
+
+// =====================================================================================
+// Estrutura em abas e seções empilhadas (inspirada em sites de festival; código original)
+// =====================================================================================
+html { scroll-behavior: auto; }
+.pv-hero2 { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 1.2rem 2.4rem; align-items: center; text-align: left;
+  padding: 2.4rem max(1.25rem, calc(50vw - 560px)) 0; }
+.pv-hero2 .pv-hero2-texto { text-align: left; }
+.pv-hero2 .pv-festival, .pv-hero2 .pv-tag { text-align: left; padding-left: 0 !important; }
+.pv-hero2 .pv-titulo { font-size: clamp(3.6rem, 9.5vw, 7.4rem); }
+.pv-hero2 .pv-meta { justify-content: flex-start; }
+.pv-hero2 .pv-curva { grid-column: 1 / -1; margin-top: 0; }
+.pv-hero2-cartaz { margin: 0; text-align: center; position: relative; }
+.pv-hero2-cartaz img { width: 100%; max-width: 400px; height: auto; border: 4px solid $gelo; box-shadow: 10px 10px 0 $rosa; transform: rotate(2deg); transition: transform .25s ease; }
+.pv-hero2-cartaz img:hover { transform: rotate(0deg) scale(1.02); }
+.pv-botao.pequeno { font-size: 1rem; padding: .35rem 1.2rem; margin: 1rem 0 0; }
+.pv-hero2 .pv-adesivo { right: auto; left: 46%; top: 70px; }
+@media (max-width: 900px) {
+  .pv-hero2 { grid-template-columns: 1fr; text-align: center; }
+  .pv-hero2 .pv-hero2-texto, .pv-hero2 .pv-festival, .pv-hero2 .pv-tag { text-align: center; }
+  .pv-hero2 .pv-meta { justify-content: center; }
+  .pv-hero2 .pv-adesivo { position: relative !important; left: auto; top: auto; margin: 0 auto; }
+  .pv-hero2-cartaz img { max-width: 300px; }
+}
+
+// Barra de abas fixa, com sublinhado na seção ativa
+.pv-abas { position: sticky; top: 0; z-index: 900; display: flex; justify-content: center; gap: .2rem 1.6rem; flex-wrap: wrap;
+  background: $noite; border-bottom: 3px solid $ciano; margin: 0 calc(50% - 50vw); padding: 0 1rem; }
+.pv-abas a { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .12em; font-size: 1.15rem; color: $gelo !important; text-decoration: none !important;
+  padding: .7rem .2rem .55rem; border-bottom: 4px solid transparent; transition: color .2s ease, border-color .2s ease; }
+.pv-abas a:hover { color: $ciano !important; }
+.pv-abas a.atual { color: $amarelo !important; border-bottom-color: $amarelo; }
+
+// Seções empilhadas, cada uma com seu fundo
+.pv-sec { margin: 0 calc(50% - 50vw); padding: 3rem 1.25rem 3.4rem; }
+.pv-sec .in { max-width: 860px; margin: 0 auto; }
+.pv-sec.escuro { background: $noite; color: $gelo; }
+.pv-sec.claro { background: $gelo; }
+.pv-sec.degrade { background: linear-gradient(115deg, $ciano 0%, #8fe9a8 45%, $amarelo 100%); }
+.pv-h2 { font-family: "Anton", Impact, sans-serif; font-size: clamp(2.4rem, 8vw, 4.2rem); letter-spacing: .02em; text-align: center; margin: 0 0 .3rem !important;
+  color: $gelo; border: 0 !important; display: block !important; font-weight: 400; }
+.pv-h2.escuro-txt { color: $noite; }
+.pv-sub { text-align: center; margin: 0 0 1.6rem; font-size: 1.05rem; }
+.pv-sub.escuro-txt { color: $noite; }
+.pv-sec.escuro a { color: $ciano; }
+.pv-cta-centro { text-align: center; margin: 2rem 0 0; }
+
+// Divisor de papel rasgado (borda irregular com selos; formas originais)
+.pv-rasgo { margin: 0 calc(50% - 50vw); line-height: 0; }
+.pv-rasgo svg { display: block; width: 100%; height: 56px; }
+.pv-rasgo text { font-family: "Bebas Neue", Impact, sans-serif; font-size: 20px; letter-spacing: 3px; fill: $noite; opacity: .55; }
+
+// Três chamadas (cartões de destaque)
+.pv-tres { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 2.4rem; }
+.pv-chamada { display: flex; flex-direction: column; align-items: center; text-align: center; gap: .35rem; padding: 1.6rem 1rem; text-decoration: none !important;
+  color: $noite !important; transition: transform .2s ease, box-shadow .2s ease; }
+.pv-chamada:hover { transform: translateY(-4px); box-shadow: 0 8px 0 $amarelo; }
+.pv-chamada b { font-family: "Anton", Impact, sans-serif; font-size: 2rem; letter-spacing: .02em; font-weight: 400; }
+.pv-chamada span { font-size: .92rem; }
+.pv-chamada u { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .1em; font-size: 1.05rem; margin-top: .4rem; }
+.pv-chamada.preta { background: $noite; border: 2px solid $gelo; color: $gelo !important; }
+.pv-chamada.verde { background: linear-gradient(135deg, #8fe9a8, $amarelo); }
+.pv-chamada.azul { background: linear-gradient(135deg, $ciano, #7aa7ff); }
+.pv-chamada .barras { display: flex; gap: 4px; }
+.pv-chamada .barras i { width: 28px; height: 5px; background: $gelo; } .pv-chamada .barras i:nth-child(2) { background: $ciano; }
+.pv-chamada .barras i:nth-child(3) { background: $amarelo; } .pv-chamada .barras i:nth-child(4) { background: $rosa; }
+
+// Botões em pílula (alternam o palco)
+.pv-pilulas { display: flex; justify-content: center; gap: .6rem; margin: 0 0 1.4rem; flex-wrap: wrap; }
+.pv-pilulas button, .pv-pilulas a { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .12em; font-size: 1.1rem; padding: .35rem 1.3rem;
+  background: transparent; color: $noite; border: 2px solid $noite; cursor: pointer; text-decoration: none !important; transition: all .2s ease; }
+.pv-pilulas button.ativa { background: $noite; color: $amarelo; }
+.pv-pilulas button:hover, .pv-pilulas a:hover { background: $rosa; border-color: $rosa; color: $noite; }
+.pv-pilulas.fixas a { color: $gelo; border-color: $gelo; }
+.pv-palcos .palco { transition: transform .25s ease, box-shadow .25s ease, opacity .25s ease; }
+.pv-palcos .palco.foco { transform: translateY(-6px) scale(1.02); box-shadow: 10px 10px 0 $rosa; }
+
+// Sanfonas (details/summary) com seta que gira e selo
+.pv-acc { background: #fff; color: $noite; border: 2px solid $noite; margin: 0 0 .7rem; }
+.pv-acc summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: .8rem; padding: .85rem 1rem; }
+.pv-acc summary::-webkit-details-marker { display: none; }
+.pv-acc summary::before { content: "▶"; font-size: .8rem; transition: transform .2s ease; }
+.pv-acc[open] summary::before { transform: rotate(90deg); }
+.pv-acc .t { font-family: "Anton", Impact, sans-serif; font-size: 1.5rem; letter-spacing: .02em; flex: 1; }
+.pv-acc .selo { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: .72rem; letter-spacing: .1em; background: $noite; color: $gelo; padding: .25rem .6rem; }
+.pv-acc .corpo { padding: 0 1rem 1rem 2.4rem; color: #1b1f3b; }
+.pv-acc .corpo p { margin: 0; }
+.pv-acc[open] { box-shadow: 6px 6px 0 $ciano; }
+
+.pv-docente { display: flex; align-items: center; gap: 1rem; background: rgba(245,247,255,.08); border: 2px solid rgba(245,247,255,.3); padding: 1rem; margin: 2rem 0 1rem; }
+.pv-docente img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 3px solid $amarelo; flex: none; }
+.pv-sec.escuro .pv-aviso-legal { background: transparent; border-color: rgba(245,247,255,.4); color: $gelo; }
+.pv-linha-tempo { max-width: 720px; margin-left: auto !important; margin-right: auto !important; }
+
+// Entrada suave dos blocos (só com JavaScript; respeita "reduzir movimento")
+.js .pv-revela { opacity: 0; transform: translateY(26px); transition: opacity .6s ease, transform .6s ease; }
+.js .pv-revela.visivel { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .js .pv-revela { opacity: 1; transform: none; transition: none; } .pv-hero2-cartaz img, .pv-chamada, .pv-acc summary::before { transition: none; } }
+
+// rabiscos do hero em duas colunas: longe do texto
+.pv-hero2 .pv-doodle.d1 { left: 1.5%; top: 14px; width: 54px; }
+.pv-hero2 .pv-doodle.d3 { left: auto; right: 41%; top: 36px; width: 90px; }
+.pv-hero2 .pv-doodle.d2 { right: 3%; top: 30px; }
+.pv-hero2 .pv-doodle.d4 { right: 2%; top: 440px; }
+.pv-hero2 .pv-doodle.d5 { right: 44%; top: 470px; width: 56px; }
+
+// ajustes finos
+.pv-h2 .anchorjs-link, .pv-h2 a.anchorjs-link { display: none !important; }
+.pv-sec .pv-grade { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
