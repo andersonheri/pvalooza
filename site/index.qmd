@@ -1,60 +1,85 @@
 ---
-pagetitle: "Análise de Conteúdo Automatizado: texto, R e LLMs"
+pagetitle: "Festival Pvalooza, Edição 01: Análise de Conteúdo com LLM"
 toc: false
+page-layout: full
 ---
 
-# Festival Pvalooza
+```{=html}
+<section class="pv-hero">
+  <p class="pv-festival">FESTIVAL</p>
+  <span class="pv-titulo">PVALOOZA</span>
+  <p class="pv-tag">Onde os dados sobem ao palco</p>
+  <div class="pv-ingresso">
+    <div class="corpo">
+      <div class="ed">EDIÇÃO 01</div>
+      <div class="nome">ANÁLISE DE CONTEÚDO COM LLM</div>
+    </div>
+    <div class="canhoto">Nº1</div>
+  </div>
+  <div class="pv-meta">
+    <span><b>11 a 15 de janeiro de 2027</b></span>
+    <span><b>15 horas</b> · online, pelo Google Meet</span>
+    <span><b>160 vagas</b> · 80 por turno</span>
+  </div>
+  <a class="pv-botao" href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">GARANTA SUA VAGA</a>
+  <a class="pv-botao secundario" href="programa.html">VER O PROGRAMA</a>
+  <svg class="pv-curva" viewBox="0 232 680 242" preserveAspectRatio="xMidYMax meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Histograma com curva normal"><g transform="translate(0,0)"><path d="M40 470L76 465.7L76 470Z" fill="#FFD400"/><path d="M80 470L80 464.9L116 451.6L116 470Z" fill="#FFD400"/><path d="M120 470L120 449.7L156 426.6L156 470Z" fill="#FF2E93"/><path d="M160 470L160 423.4L196 391.1L196 470Z" fill="#FF2E93"/><path d="M200 470L200 387.1L236 348.2L236 470Z" fill="#FF2E93"/><path d="M240 470L240 343.6L276 305.6L276 470Z" fill="#FF2E93"/><path d="M280 470L280 301.6L316 275.7L316 470Z" fill="#FF2E93"/><path d="M320 470L320 274.3L340 270L356 272.9L356 470Z" fill="#FF2E93"/><path d="M360 470L360 274.3L396 298.1L396 470Z" fill="#FF2E93"/><path d="M400 470L400 301.6L436 339.3L436 470Z" fill="#FF2E93"/><path d="M440 470L440 343.6L476 383L476 470Z" fill="#FF2E93"/><path d="M480 470L480 387.1L516 420.1L516 470Z" fill="#FF2E93"/><path d="M520 470L520 423.4L556 447.5L556 470Z" fill="#FF2E93"/><path d="M560 470L560 449.7L596 464L596 470Z" fill="#FFD400"/><path d="M600 470L600 464.9L636 469.7L636 470Z" fill="#FFD400"/><line x1="0" y1="470" x2="680" y2="470" stroke="#F5F7FF" stroke-width="1" opacity="0.5"/><path d="M0 470L40 470C190 470 260 270 340 270C420 270 490 470 640 470L680 470" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="640" y="418" text-anchor="end" font-family="Space Grotesk, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFD400">p &lt; 0,05</text><line x1="615" y1="428" x2="615" y2="454" stroke="#FFD400" stroke-width="1" stroke-dasharray="3 3"/></g></svg>
+</section>
+```
 
-## Edição 01: Análise de Conteúdo com LLM
+::: {.pv-conteudo}
 
-**Texto, R e LLMs com o pacote [acR](https://ahenriquecp.com/acR/)**
+## Em poucas linhas
 
-Curso online · **11 a 15 de janeiro de 2027** (datas a confirmar em dezembro de 2026) · 15 horas · Google Meet
+Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `.docx` e `.pdf`, montar um corpus, descrever e comparar textos e classificá-los com um modelo de linguagem (LLM), validando o resultado contra codificação humana. Qualitativa e quantitativa, com o pacote [acR](https://ahenriquecp.com/acR/): código aberto, replicável ponta a ponta.
 
-| Turno | Horário (Brasília) |
-|---|---|
-| Manhã | 9h às 12h |
-| Noite | 18h30 às 21h30 |
+```{=html}
+<div class="pv-grade">
+  <div class="pv-card"><div class="rotulo">Quando</div><div class="valor">11 a 15 JAN</div><p>De 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.</p></div>
+  <div class="pv-card"><div class="rotulo">Turnos (Brasília)</div><div class="valor">9H–12H · 18H30–21H30</div><p>Mesmo conteúdo nos dois. Aulas ao vivo, sem gravação.</p></div>
+  <div class="pv-card"><div class="rotulo">Vagas</div><div class="valor">160 · SORTEIO</div><p>Entre inscritos elegíveis, com cotas de região, nível e cor ou raça, e paridade de gênero.</p></div>
+  <div class="pv-card"><div class="rotulo">Para quem</div><div class="valor">R BÁSICO+</div><p>Graduação, pós e profissionais, com um projeto que envolva texto.</p></div>
+</div>
 
-Docente: Anderson Henrique (CEM/USP). Há 160 vagas (80 por turno), preenchidas por sorteio entre inscritos elegíveis.
+<div class="pv-lineup">
+  <div class="topo">QUALITATIVA + QUANTITATIVA · PACOTE acR</div>
+  <div class="linha">CORPUS · LIMPEZA · CODEBOOK</div>
+  <div class="linha">CODIFICAÇÃO QUALITATIVA COM LLM</div>
+  <div class="linha">SENTIMENTO · LDA · AGRUPAMENTO</div>
+  <div class="linha">VALIDAÇÃO E RELATÓRIO DE MÉTODO</div>
+</div>
+```
 
-::: {.destaque}
-**Inscrições até 15 de novembro de 2026:** [formulário de inscrição](https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform). O resultado do sorteio será enviado por e-mail.
-:::
+## Calendário
 
-| Etapa | Data |
-|---|---|
-| Inscrições | até 15 de novembro de 2026 |
-| Resultado do sorteio, por e-mail | até 20 de novembro de 2026 |
-| Sorteados confirmam interesse | até 15 de dezembro de 2026 |
-| Lista final | até 27 de dezembro de 2026 |
+```{=html}
+<ul class="pv-linha-tempo">
+  <li><div class="data">Até 15 de novembro de 2026 <small>inscrições</small></div><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">Formulário de inscrição</a></li>
+  <li><div class="data">Até 20 de novembro <small>resultado do sorteio, por e-mail</small></div></li>
+  <li><div class="data">Até 15 de dezembro <small>sorteados confirmam interesse</small></div></li>
+  <li><div class="data">Até 27 de dezembro <small>lista final</small></div></li>
+  <li><div class="data">11 a 15 de janeiro de 2027 <small>o festival</small></div></li>
+</ul>
+```
 
-O sorteio é feito entre inscritos elegíveis, com cotas de região, nível acadêmico e cor ou raça, e paridade de gênero.
+## Como funciona
 
-## O que você vai aprender
-
-Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `.docx` e `.pdf`, montar um corpus, descrever e comparar textos, e classificá-los com um modelo de linguagem (LLM), validando o resultado contra codificação humana.
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-::: {.cartao-dia}
-### Para quem é
-Estudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com um projeto que envolva texto e **R básico ou intermediário**.
-:::
-:::
-::: {.g-col-12 .g-col-md-6}
-::: {.cartao-dia}
-### Como funciona
-Aulas ao vivo com prática guiada, sem gravação. Dúvidas pelas Discussions e Issues do repositório no GitHub. Sem certificado nesta edição.
-:::
-:::
-:::
+```{=html}
+<div class="pv-grade">
+  <div class="pv-card"><div class="rotulo">Formato</div><p>Prática guiada em cada bloco, com scripts prontos e um corpus real de discursos da Câmara dos Deputados.</p></div>
+  <div class="pv-card"><div class="rotulo">Apoio</div><p>Dúvidas pelas <b>Discussions</b> e <b>Issues</b> do repositório no GitHub (conta gratuita).</p></div>
+  <div class="pv-card"><div class="rotulo">Sem certificado</div><p>Não haverá certificado nesta edição. Há uma declaração de participação.</p></div>
+  <div class="pv-card"><div class="rotulo">Docente</div><p>Anderson Henrique (CEM/USP), autor do pacote acR.</p></div>
+</div>
+```
 
 ## Prepare-se
 
-1. [Crie sua conta no GitHub](tutorial_github.qmd)
-2. [Instale R, RStudio e os pacotes](tutorial_instalacao.qmd)
-3. [Crie sua chave de API (Gemini ou Groq)](tutorial_api_gemini_groq.qmd)
+1. [Crie sua conta no GitHub](tutorial_github.html)
+2. [Instale R, RStudio e os pacotes](tutorial_instalacao.html)
+3. [Crie sua chave de API (Gemini ou Groq)](tutorial_api_gemini_groq.html)
 4. Participe do **dia 0** (1h, opcional), se algo falhar
 
-Veja o [programa completo](programa.qmd) e o [roteiro dia a dia](dias.qmd).
+Veja também o [programa completo](programa.html) e o [roteiro dia a dia](dias.html).
+
+:::

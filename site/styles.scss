@@ -1,33 +1,116 @@
 /*-- scss:defaults --*/
-// Paleta do layout dos slides (Beamer, SICSS-Brazil 2026)
-$azul-uni: #1F4E79;
-$azul-claro: #447296;
-$laranja: #C85A1E;
-$verde: #006E50;
+// Identidade do Festival Pvalooza (cartaz da Edição 01)
+$noite: #0B1033;
+$ciano: #19E3D3;
+$rosa: #FF2E93;
+$amarelo: #FFD400;
+$gelo: #F5F7FF;
 
-$primary: $azul-uni;
-$link-color: $azul-claro;
-$navbar-bg: $azul-uni;
-$navbar-fg: #ffffff;
-$navbar-hl: #ffffff;
-$font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$primary: $rosa;
+$link-color: #D4126F;
+$navbar-bg: $noite;
+$navbar-fg: $gelo;
+$navbar-hl: $amarelo;
+$body-color: #1b1f3b;
+$font-family-sans-serif: "Space Grotesk", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$headings-font-weight: 600;
 
 /*-- scss:rules --*/
-.destaque {
-  border-left: 5px solid $laranja;
-  background: #fbf3ee;
-  padding: 0.8rem 1rem;
-  margin: 1rem 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap');
 
-.cartao-dia {
-  border: 1px solid #d5dde5;
-  border-top: 4px solid $azul-uni;
-  border-radius: 6px;
-  padding: 0.8rem 1rem;
-  height: 100%;
-}
-.cartao-dia h3 { margin-top: 0; font-size: 1.1rem; color: $azul-uni; }
+:root { --noite: #{$noite}; --ciano: #{$ciano}; --rosa: #{$rosa}; --amarelo: #{$amarelo}; --gelo: #{$gelo}; }
 
-h1, h2, h3 { color: $azul-uni; }
+body { font-family: "Space Grotesk", sans-serif; }
+h1, h2, h3, h4 { color: $noite; font-family: "Space Grotesk", sans-serif; }
+h2 { border-bottom: 3px solid $amarelo; display: inline-block; padding-bottom: 0.15rem; margin-top: 2.2rem; }
+a { text-underline-offset: 3px; }
 table { font-size: 0.95rem; }
+table thead th { background: $noite; color: $gelo; border: 0; }
+
+// ---- Navegação ---------------------------------------------------------------
+.navbar { border-bottom: 3px solid $ciano; box-shadow: 0 4px 18px rgba(11, 16, 51, 0.25); }
+.navbar-brand .navbar-title { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: 0.14em; font-size: 1.35rem; color: $gelo; }
+.navbar-brand-container img { height: 34px; margin-right: 8px; }
+.navbar .nav-link { font-weight: 500; letter-spacing: 0.02em; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: $amarelo !important; }
+.nav-footer { background: $noite; color: $gelo; border-top: 3px solid $ciano; }
+.nav-footer a { color: $ciano; }
+.nav-footer .nav-footer-left, .nav-footer .nav-footer-right { color: $gelo; }
+
+// ---- Banner ---------------------------------------------------------------------
+#quarto-content .page-columns, main.content { padding-top: 0 !important; margin-top: 0 !important; }
+main.content > .pv-hero { margin-top: 0; }
+#title-block-header { display: none; }
+.pv-hero {
+  position: relative; overflow: hidden; color: $gelo; background: $noite;
+  margin: 0 calc(50% - 50vw); padding: 3.2rem 1.25rem 0; text-align: center;
+}
+.pv-hero::before, .pv-hero::after {
+  content: ""; position: absolute; top: 0; width: 38%; height: 78%;
+  background: $ciano; opacity: 0.08; pointer-events: none;
+}
+.pv-hero::before { left: 12%; clip-path: polygon(48% 0, 0 100%, 100% 100%); }
+.pv-hero::after { right: 12%; clip-path: polygon(52% 0, 0 100%, 100% 100%); }
+.pv-hero > * { position: relative; z-index: 1; }
+.pv-festival { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: 0.55em; font-size: 1.5rem; color: $ciano; margin: 0; padding-left: 0.55em; }
+.pv-titulo { font-family: "Anton", Impact, sans-serif; font-size: clamp(3.4rem, 13vw, 8rem); line-height: 1; letter-spacing: 0.02em; margin: 0.2rem 0 0.4rem; color: $gelo; border: 0; display: block; }
+.pv-tag { font-weight: 500; letter-spacing: 0.28em; font-size: 0.85rem; color: $amarelo; text-transform: uppercase; margin-bottom: 1.6rem; }
+.pv-ingresso {
+  display: inline-flex; align-items: stretch; background: $amarelo; color: $noite;
+  position: relative; text-align: left; max-width: 100%;
+  -webkit-mask: radial-gradient(circle 11px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat;
+          mask: radial-gradient(circle 11px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat;
+}
+.pv-ingresso .corpo { padding: 0.9rem 1.6rem 0.9rem 2rem; }
+.pv-ingresso .ed { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.32em; }
+.pv-ingresso .nome { font-family: "Bebas Neue", Impact, sans-serif; font-size: clamp(1.4rem, 4.4vw, 2.5rem); line-height: 1.05; letter-spacing: 0.02em; }
+.pv-ingresso .canhoto { border-left: 2px dashed $noite; padding: 0.9rem 1.2rem; display: flex; align-items: center; font-family: "Anton", Impact, sans-serif; font-size: 1.9rem; }
+.pv-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.6rem; margin: 1.6rem 0 1.4rem; font-weight: 500; }
+.pv-meta span { color: $gelo; opacity: 0.92; }
+.pv-meta b { color: $ciano; font-weight: 700; }
+.pv-botao {
+  display: inline-block; background: $rosa; color: $noite !important; text-decoration: none !important;
+  font-family: "Bebas Neue", Impact, sans-serif; font-size: 1.35rem; letter-spacing: 0.18em;
+  padding: 0.55rem 2.2rem; transition: transform .15s, box-shadow .15s;
+}
+.pv-botao:hover { transform: translateY(-2px); box-shadow: 0 6px 0 $amarelo; }
+.pv-botao.secundario { background: transparent; color: $gelo !important; border: 2px solid $ciano; margin-left: 0.6rem; }
+.pv-curva { display: block; width: 100%; height: auto; margin-top: 1.6rem; max-height: 260px; }
+
+// ---- Seções da página inicial ------------------------------------------------------
+.pv-grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+.pv-card {
+  background: #fff; border: 1px solid #e3e6f4; border-top: 5px solid $rosa; padding: 1rem 1.15rem 1.1rem;
+  box-shadow: 0 6px 18px rgba(11, 16, 51, 0.06);
+}
+.pv-card:nth-child(2) { border-top-color: $ciano; }
+.pv-card:nth-child(3) { border-top-color: $amarelo; }
+.pv-card:nth-child(4) { border-top-color: $noite; }
+.pv-card .rotulo { font-size: 0.72rem; letter-spacing: 0.2em; font-weight: 700; text-transform: uppercase; color: #6b7094; }
+.pv-card .valor { font-family: "Bebas Neue", Impact, sans-serif; font-size: 2.2rem; line-height: 1.05; color: $noite; margin: 0.15rem 0; }
+.pv-card p { margin: 0; font-size: 0.92rem; }
+.pv-lineup { background: $noite; color: $gelo; padding: 1.6rem 1.4rem; margin: 1.6rem 0; text-align: center; }
+.pv-lineup .topo { font-size: 0.78rem; letter-spacing: 0.32em; color: $ciano; font-weight: 500; }
+.pv-lineup .linha { font-family: "Bebas Neue", Impact, sans-serif; font-size: clamp(1.3rem, 3.6vw, 2rem); letter-spacing: 0.06em; margin-top: 0.4rem; }
+.pv-lineup .linha:nth-of-type(2) { color: $rosa; }
+.pv-lineup .linha:nth-of-type(4) { color: $amarelo; }
+.pv-linha-tempo { list-style: none; padding: 0; margin: 1.2rem 0; border-left: 4px solid $ciano; }
+.pv-linha-tempo li { position: relative; padding: 0.35rem 0 0.9rem 1.4rem; }
+.pv-linha-tempo li::before { content: ""; position: absolute; left: -11px; top: 0.55rem; width: 18px; height: 18px; border-radius: 50%; background: $rosa; border: 4px solid $gelo; }
+.pv-linha-tempo .data { font-family: "Bebas Neue", Impact, sans-serif; font-size: 1.5rem; color: $noite; letter-spacing: 0.04em; }
+.pv-linha-tempo .data small { font-family: "Space Grotesk", sans-serif; font-size: 0.85rem; color: #6b7094; letter-spacing: 0; margin-left: 0.4rem; }
+.pv-aviso { border-left: 5px solid $rosa; background: #fff0f7; padding: 0.8rem 1rem; margin: 1rem 0; }
+
+// ---- Dia a dia ----------------------------------------------------------------------
+.cartao-dia { background: #fff; border: 1px solid #e3e6f4; border-top: 5px solid $rosa; padding: 0.9rem 1.1rem; height: 100%; box-shadow: 0 6px 18px rgba(11, 16, 51, 0.06); }
+.cartao-dia h3 { margin-top: 0; font-size: 1.1rem; color: $noite; }
+.g-col-md-4:nth-child(3n+2) .cartao-dia { border-top-color: $ciano; }
+.g-col-md-4:nth-child(3n) .cartao-dia { border-top-color: $amarelo; }
+.destaque { border-left: 5px solid $rosa; background: #fff0f7; padding: 0.8rem 1rem; margin: 1rem 0; }
+
+@media (max-width: 600px) {
+  .pv-ingresso { flex-direction: column; }
+  .pv-ingresso .canhoto { border-left: 0; border-top: 2px dashed $noite; padding: 0.4rem 1.2rem; }
+  .pv-botao.secundario { margin: 0.8rem 0 0; }
+  .pv-festival { letter-spacing: 0.35em; }
+}
