@@ -30,6 +30,8 @@ website:
         href: dias.qmd
       - text: "FAQ"
         href: faq.qmd
+      - text: "Sobre mim"
+        href: sobre.qmd
     right:
       - icon: box-seam
         href: https://ahenriquecp.com/acR/

@@ -1,0 +1,42 @@
+---
+pagetitle: "Sobre mim"
+toc: false
+---
+
+```{=html}
+<section class="sobre">
+  <img class="sobre-foto" src="img/foto.jpg" alt="Foto de Anderson Henrique" width="260" height="260">
+  <div class="sobre-texto">
+    <p class="rotulo">Docente</p>
+    <h1 class="sobre-nome">Anderson Henrique</h1>
+    <p class="sobre-cargo">Cientista político · pesquisador de pós-doutorado no CEM/USP</p>
+  </div>
+</section>
+```
+
+## Sobre mim
+
+Sou cientista político, doutor pela Universidade Federal de Pernambuco (UFPE, 2025) e pesquisador de pós-doutorado no Centro de Estudos da Metrópole (CEM), FAPESP/Cepid/USP, sob supervisão da Profa. Ursula Peres. Integro o INCT sobre Qualidade de Governo e Políticas para o Desenvolvimento Sustentável (INCT-QualiGov) e sou pesquisador convidado no IPEA.
+
+Estudo como o Estado brasileiro responde ao imprevisto: federalismo, capacidade estatal e a política das transferências de emergência, combinando desenhos quantitativos e evidências qualitativas. Também trabalho com replicabilidade e métodos em Ciência Política.
+
+Sou autor do [acR](https://ahenriquecp.com/acR/), pacote em R para análise de conteúdo (qualitativa com LLMs e quantitativa), disponível no [CRAN](https://cran.r-project.org/package=acR) e usado neste curso.
+
+## Onde me encontrar
+
+```{=html}
+<div class="sobre-links">
+  <a href="https://ahenriquecp.com/" target="_blank" rel="noopener">Site pessoal</a>
+  <a href="http://lattes.cnpq.br/7628365040600511" target="_blank" rel="noopener">Currículo Lattes</a>
+  <a href="https://ahenriquecp.com/assets/cv_pt.pdf" target="_blank" rel="noopener">CV (PDF, português)</a>
+  <a href="https://ahenriquecp.com/assets/cv_en.pdf" target="_blank" rel="noopener">CV (PDF, inglês)</a>
+  <a href="https://x.com/ande_henri" target="_blank" rel="noopener">X (@ande_henri)</a>
+  <a href="https://github.com/andersonheri" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://orcid.org/0000-0002-1842-2725" target="_blank" rel="noopener">ORCID</a>
+  <a href="https://scholar.google.com/citations?user=YGNu2fsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+  <a href="https://osf.io/ysj2q/" target="_blank" rel="noopener">OSF</a>
+  <a href="https://ahenriquecp.com/acR/" target="_blank" rel="noopener">Pacote acR</a>
+</div>
+```
+
+Dúvidas sobre o curso: abra uma [Issue](https://github.com/andersonheri/curso-acr/issues) no repositório do site.
