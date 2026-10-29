@@ -1,5 +1,23 @@
 ---
 pagetitle: "Programa"
+toc: false
+page-layout: full
 ---
 
+```{=html}
+<section class="pv-pagina-hero"><svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg><svg class="pv-doodle d2" viewBox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"/></svg><svg class="pv-doodle d3" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"/></svg><svg class="pv-doodle d4" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 6v48M6 30h48M13 13l34 34M47 13L13 47" stroke="#FF2E93" stroke-width="4" stroke-linecap="round"/></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS PVALOOZA</p>
+  <h1 class="pv-pagina-titulo">PROGRAMA</h1>
+  <p class="pv-pagina-sub">Edição 1 · 4 a 8 de janeiro de 2027 · 15 horas</p>
+</section>
+
+<div class="pv-rasgo" aria-hidden="true"><svg viewBox="0 0 1000 100" preserveAspectRatio="none"><rect width="1000" height="100" fill="#0B1033"/><polygon points="0,100 0,63 31,84 59,63 89,72 109,46 139,65 173,74 192,41 220,54 238,40 269,79 303,37 336,60 364,76 397,76 416,74 430,68 446,38 461,47 482,73 496,84 524,55 552,72 572,68 593,75 616,66 630,77 646,64 680,52 707,70 723,80 745,55 766,67 789,36 805,71 822,60 839,53 865,39 879,78 893,48 913,38 942,59 968,61 984,71 1000,100" fill="#FF2E93"/><g class="selos"><text x="40" y="26">★ p &lt; 0,05 ★</text><text x="360" y="26">★ PVALOOZA ★</text><text x="680" y="26">★ p &lt; 0,05 ★</text></g></svg></div>
+```
+
+```{=html}
+<nav class="pv-abas" aria-label="Seções do programa"><a href="#dados-gerais">VISÃO GERAL</a><a href="#objetivos">OBJETIVOS</a><a href="#metodologia">METODOLOGIA</a><a href="#conteúdo-programático">CONTEÚDO</a><a href="#programação-por-dia">POR DIA</a><a href="#bibliografia">BIBLIOGRAFIA</a></nav>
+```
+
+::: {.pv-pagina}
 {{< include ../docs/programa.md >}}
+:::

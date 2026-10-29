@@ -1,19 +1,25 @@
 ---
 pagetitle: "Sobre mim"
 toc: false
+page-layout: full
 ---
 
 ```{=html}
-<section class="sobre">
-  <img class="sobre-foto" src="img/foto.jpg" alt="Foto de Anderson Henrique" width="260" height="260">
-  <div class="sobre-texto">
-    <p class="rotulo">Docente</p>
-    <h1 class="sobre-nome">Anderson Henrique</h1>
-    <p class="sobre-cargo">Cientista político · pesquisador de pós-doutorado no CEM/USP</p>
+<section class="pv-pagina-hero sobre-hero"><svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg><svg class="pv-doodle d2" viewBox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"/></svg><svg class="pv-doodle d3" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"/></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS PVALOOZA · HEADLINER</p>
+  <div class="sobre">
+    <img class="sobre-foto" src="img/foto.jpg" alt="Foto de Anderson Henrique" width="190" height="190">
+    <div class="sobre-texto">
+      <p class="rotulo">Docente</p>
+      <h1 class="sobre-nome">Anderson Henrique</h1>
+      <p class="sobre-cargo">Cientista político · pesquisador de pós-doutorado no CEM/USP</p>
+    </div>
   </div>
 </section>
+<div class="pv-rasgo" aria-hidden="true"><svg viewBox="0 0 1000 100" preserveAspectRatio="none"><rect width="1000" height="100" fill="#0B1033"/><polygon points="0,100 0,68 27,54 52,53 71,84 102,77 124,42 138,50 164,82 191,51 221,55 255,78 281,43 312,38 330,85 350,44 381,70 401,56 432,42 466,39 489,61 505,67 534,75 567,44 594,67 618,36 645,58 677,38 702,38 731,58 763,84 777,60 798,42 829,48 850,68 875,38 897,39 919,47 952,70 983,70 1000,100" fill="#FF2E93"/><g class="selos"><text x="40" y="26">★ HEADLINER ★</text><text x="360" y="26">★ p &lt; 0,05 ★</text><text x="680" y="26">★ HEADLINER ★</text></g></svg></div>
 ```
 
+::: {.pv-pagina}
 ## Sobre mim
 
 Sou cientista político, doutor pela Universidade Federal de Pernambuco (UFPE, 2025) e pesquisador de pós-doutorado no Centro de Estudos da Metrópole (CEM), FAPESP/Cepid/USP, sob supervisão da Profa. Ursula Peres. Integro o INCT sobre Qualidade de Governo e Políticas para o Desenvolvimento Sustentável (INCT-QualiGov) e sou pesquisador convidado no IPEA.
@@ -40,3 +46,4 @@ Sou autor do [acR](https://ahenriquecp.com/acR/), pacote em R para análise de c
 ```
 
 Dúvidas sobre o curso: abra uma [Issue](https://github.com/andersonheri/pvalooza/issues) no repositório do site.
+:::

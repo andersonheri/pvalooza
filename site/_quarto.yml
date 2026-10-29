@@ -53,3 +53,4 @@ format:
     toc-title: "Nesta página"
     code-copy: true
     smooth-scroll: true
+    include-after-body: pv-script.html

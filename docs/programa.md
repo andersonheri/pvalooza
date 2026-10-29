@@ -11,7 +11,7 @@
 | **Evento** | Festival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R |
 | **Título do curso** | Análise de Conteúdo Automatizada em R: texto, R e LLMs |
 | **Coordenação e docência** | Anderson Henrique (CEM/USP) |
-| **Apoio** | 2 monitores (a definir) |
+| **Apoio** | Monitores (a divulgar) |
 | **Modalidade** | Online, síncrona, pelo Google Meet |
 | **Datas** | 4 a 8 de janeiro de 2027 (segunda a sexta), a confirmar em dezembro de 2026 |
 | **Carga horária** | 15 horas (5 encontros de 3h) |
@@ -20,7 +20,7 @@
 | **Público** | Estudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com projeto que envolva texto |
 | **Pré-requisitos** | R básico/intermediário (importar dados, usar pacotes, rodar scripts), computador com R e RStudio, conta Google e conta no GitHub |
 | **Software** | R (≥ 4.1), RStudio, pacote **acR**, `renv` para versões fixas dos pacotes |
-| **Materiais** | Repositório privado `acr-curso-2027` (aberto ao público após o curso) e site de apoio em ahenriquecp.com/pvalooza |
+| **Materiais** | Repositório do curso no GitHub (convite aos selecionados; aberto ao público depois da edição) e este site |
 | **Suporte** | Discussions e Issues do repositório no GitHub |
 | **Gravação** | As aulas não serão gravadas |
 | **Certificação** | Não há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda |
@@ -219,13 +219,3 @@ SILGE, Julia; ROBINSON, David. **Text Mining with R**: a tidy approach. Sebastop
 TÖRNBERG, Petter. ChatGPT-4 outperforms experts and crowd workers in annotating political Twitter messages with zero-shot learning. **arXiv**, 2304.06588, 2023.
 
 ZIEMS, Caleb et al. Can large language models transform computational social science? **Computational Linguistics**, v. 50, n. 1, p. 237-291, 2024. DOI: 10.1162/coli_a_00502.
-
----
-
-## 9. Pontos a confirmar
-
-- Data definitiva, no fim de dezembro de 2026.
-- Nome dos 2 monitores e, se for o caso, de convidados.
-- Se haverá declaração de participação e como será emitida.
-- Corpus final do curso (discursos da Câmara e/ou do Senado, mais exemplos em `.xlsx`, `.docx` e `.pdf`).
-- Provedor principal de LLM para a demonstração (Gemini ou Groq) e limites de uso das cotas gratuitas na semana do curso.

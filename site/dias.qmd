@@ -1,43 +1,23 @@
 ---
 pagetitle: "Dia a dia"
 toc: false
+page-layout: full
 ---
 
-# Dia a dia
+```{=html}
+<section class="pv-pagina-hero"><svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg><svg class="pv-doodle d2" viewBox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"/></svg><svg class="pv-doodle d3" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"/></svg><svg class="pv-doodle d4" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 6v48M6 30h48M13 13l34 34M47 13L13 47" stroke="#FF2E93" stroke-width="4" stroke-linecap="round"/></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS PVALOOZA</p>
+  <h1 class="pv-pagina-titulo">DIA A DIA</h1>
+  <p class="pv-pagina-sub">Cinco encontros · 3 blocos e 2 pausas de 10 minutos · mesmo conteúdo nos dois turnos</p>
+</section>
 
-Cada encontro tem 3 blocos e 2 pausas de 10 minutos, com o mesmo conteúdo nos dois turnos. Os slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.
+<div class="pv-rasgo" aria-hidden="true"><svg viewBox="0 0 1000 100" preserveAspectRatio="none"><rect width="1000" height="100" fill="#0B1033"/><polygon points="0,100 0,58 29,65 52,61 73,63 87,61 109,50 143,49 157,53 180,56 198,82 231,54 245,85 266,73 288,36 306,73 340,36 368,64 401,75 424,49 447,58 469,61 485,57 514,62 544,76 563,71 586,72 601,53 617,85 631,68 656,50 685,44 708,54 732,64 760,39 779,79 808,81 822,63 851,35 880,79 897,64 930,40 959,76 973,44 994,60 1000,100" fill="#FF2E93"/><g class="selos"><text x="40" y="26">★ p &lt; 0,05 ★</text><text x="360" y="26">★ PVALOOZA ★</text><text x="680" y="26">★ p &lt; 0,05 ★</text></g></svg></div>
+```
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
-### Dia 1 · Fundamentos e corpus
-Da análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares.
-:::
-:::
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
-### Dia 2 · Pré-processamento e descrição
-Tokenização, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.
-:::
-:::
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
-### Dia 3 · Comparação e modelagem
-*Keyness*, coocorrência, Wordscores, análise de correspondência, agrupamento e LDA.
-:::
-:::
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
-### Dia 4 · LLMs
-Codebook, prompts, chaves de API, classificação em lote, custo e riscos.
-:::
-:::
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
-### Dia 5 · Validação e mini-projeto
-Amostragem, kappa, Krippendorff, Gwet, métricas de classificação e reprodutibilidade.
-:::
-:::
-:::
-
-O horário detalhado de cada dia está no [programa](programa.qmd#programação-por-dia).
+```{=html}
+<section class="pv-sec claro"><div class="in">
+<p class="pv-sub escuro-txt">Os slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.</p>
+<a class="pv-dia pv-revela" href="programa.html#dia-1-fundamentos-e-corpus"><span class="num"><b>4</b><i>JAN · SEG</i></span><span class="corpo"><span class="atracao a1">CORPUS</span><span class="desc">Da análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares da Câmara.</span><u>VER OS HORÁRIOS →</u></span></a><a class="pv-dia pv-revela" href="programa.html#dia-2-pré-processamento-e-descrição"><span class="num"><b>5</b><i>JAN · TER</i></span><span class="corpo"><span class="atracao a2">TEXTO LIMPO</span><span class="desc">Tokenização, stopwords, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.</span><u>VER OS HORÁRIOS →</u></span></a><a class="pv-dia pv-revela" href="programa.html#dia-3-comparação-e-modelagem"><span class="num"><b>6</b><i>JAN · QUA</i></span><span class="corpo"><span class="atracao a3">LDA</span><span class="desc">Keyness, coocorrência, Wordscores, análise de correspondência, agrupamento e tópicos com LDA.</span><u>VER OS HORÁRIOS →</u></span></a><a class="pv-dia pv-revela" href="programa.html#dia-4-llms-na-análise-de-conteúdo"><span class="num"><b>7</b><i>JAN · QUI</i></span><span class="corpo"><span class="atracao a4">LLM</span><span class="desc">Codebook, prompts, chaves de API, classificação em lote, custo e riscos.</span><u>VER OS HORÁRIOS →</u></span></a><a class="pv-dia pv-revela" href="programa.html#dia-5-validação-reprodutibilidade-e-mini-projeto"><span class="num"><b>8</b><i>JAN · SEX</i></span><span class="corpo"><span class="atracao a5">VALIDAÇÃO</span><span class="desc">Amostragem, kappa, Krippendorff, Gwet, relatório, reprodutibilidade e mini-projeto.</span><u>VER OS HORÁRIOS →</u></span></a>
+<div class="pv-aviso-legal">Manhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Sem gravação.</div>
+</div></section>
+```

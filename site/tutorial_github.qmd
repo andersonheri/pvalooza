@@ -1,5 +1,19 @@
 ---
-pagetitle: "Tutorial: conta no GitHub"
+pagetitle: "Conta no GitHub"
+toc: false
+page-layout: full
 ---
 
+```{=html}
+<section class="pv-pagina-hero"><svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg><svg class="pv-doodle d2" viewBox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"/></svg><svg class="pv-doodle d3" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"/></svg><svg class="pv-doodle d4" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 6v48M6 30h48M13 13l34 34M47 13L13 47" stroke="#FF2E93" stroke-width="4" stroke-linecap="round"/></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS PVALOOZA</p>
+  <h1 class="pv-pagina-titulo">CONTA NO GITHUB</h1>
+  <p class="pv-pagina-sub">Preparação · passo 1</p>
+</section>
+<nav class="pv-abas paginas" aria-label="Páginas de preparação"><a href="tutorial_github.html" class="atual">1 · GITHUB</a><a href="tutorial_instalacao.html">2 · R E PACOTES</a><a href="tutorial_api_gemini_groq.html">3 · CHAVES DE API</a><a href="faq.html">FAQ</a></nav>
+<div class="pv-rasgo" aria-hidden="true"><svg viewBox="0 0 1000 100" preserveAspectRatio="none"><rect width="1000" height="100" fill="#0B1033"/><polygon points="0,100 0,65 22,77 52,77 77,44 103,35 128,65 150,76 178,79 211,49 242,35 275,44 303,58 322,56 342,38 374,47 390,67 414,78 440,40 454,38 484,49 500,62 528,42 555,43 586,55 619,70 638,79 653,70 672,67 688,60 721,61 754,65 783,73 809,69 823,76 839,47 861,57 886,79 912,78 935,42 957,50 981,58 1000,100" fill="#FF2E93"/><g class="selos"><text x="40" y="26">★ p &lt; 0,05 ★</text><text x="360" y="26">★ PVALOOZA ★</text><text x="680" y="26">★ p &lt; 0,05 ★</text></g></svg></div>
+```
+
+::: {.pv-pagina}
 {{< include ../docs/tutorial_github.md >}}
+:::

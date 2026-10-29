@@ -305,3 +305,70 @@ html { scroll-behavior: auto; }
 // ajustes finos
 .pv-h2 .anchorjs-link, .pv-h2 a.anchorjs-link { display: none !important; }
 .pv-sec .pv-grade { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+
+// =====================================================================================
+// Páginas internas: banner de página, abas entre páginas, conteúdo em papel, "sets" do dia a dia
+// =====================================================================================
+.pv-pagina-hero { position: relative; overflow: hidden; background: $noite; color: $gelo; margin: 0 calc(50% - 50vw); padding: 2.6rem 1.25rem 2.2rem; text-align: center; }
+.pv-pagina-hero::before, .pv-pagina-hero::after { content: ""; position: absolute; top: 0; width: 34%; height: 100%; background: $ciano; opacity: .07; pointer-events: none; }
+.pv-pagina-hero::before { left: 8%; clip-path: polygon(48% 0, 0 100%, 100% 100%); }
+.pv-pagina-hero::after { right: 8%; clip-path: polygon(52% 0, 0 100%, 100% 100%); }
+.pv-pagina-hero > * { position: relative; z-index: 1; }
+.pv-pagina-hero .pv-festival { font-size: clamp(.95rem, 3vw, 1.3rem) !important; letter-spacing: .4em; margin: 0 0 .3rem; }
+.pv-pagina-titulo { font-family: "Anton", Impact, sans-serif; font-weight: 400; font-size: clamp(2.8rem, 10vw, 5.6rem); letter-spacing: .02em; line-height: 1; margin: .1rem 0 .5rem; color: $gelo; border: 0 !important; display: block; }
+.pv-pagina-titulo .anchorjs-link, .sobre-nome .anchorjs-link { display: none !important; }
+.pv-pagina-sub { font-family: "Space Grotesk", sans-serif; letter-spacing: .12em; font-weight: 500; color: $amarelo; margin: 0; text-transform: uppercase; font-size: .85rem; }
+.pv-pagina-hero .pv-doodle { opacity: .85; }
+.pv-pagina-hero .d1 { left: 6%; top: 28px; width: 52px; transform: rotate(-12deg); }
+.pv-pagina-hero .d2 { right: 8%; top: 24px; width: 46px; transform: rotate(14deg); }
+.pv-pagina-hero .d3 { left: 14%; bottom: 14px; width: 88px; }
+.pv-pagina-hero .d4 { right: 16%; bottom: 20px; width: 40px; }
+@media (max-width: 700px) { .pv-pagina-hero .d3, .pv-pagina-hero .d4 { display: none; } }
+
+// Abas entre páginas (links, sem rolagem): mesmo visual da barra de seções
+.pv-abas.paginas a.atual { color: $amarelo !important; border-bottom-color: $amarelo; }
+
+// Conteúdo em papel
+.pv-pagina { max-width: 860px; margin: 1.6rem auto 3rem; padding: 0 1.25rem; font-size: 1.02rem; }
+.pv-pagina h1 { display: none; }
+.pv-pagina h2 { font-family: "Anton", Impact, sans-serif; font-weight: 400; font-size: clamp(1.9rem, 5vw, 2.6rem); letter-spacing: .02em; color: $noite; border-bottom: 5px solid $amarelo; display: inline-block; margin-top: 2.6rem; padding-bottom: .1rem; }
+.pv-pagina h3 { font-family: "Bebas Neue", Impact, sans-serif; font-weight: 400; letter-spacing: .06em; font-size: 1.7rem; color: $noite; margin-top: 2rem; background: linear-gradient(transparent 62%, rgba(25,227,211,.45) 62%); display: inline-block; }
+.pv-pagina .anchorjs-link { display: none !important; }
+.pv-pagina a { color: #D4126F; font-weight: 500; }
+.pv-pagina table { width: 100%; border: 3px solid $noite; border-collapse: collapse; font-size: .95rem; margin: 1rem 0 1.6rem; box-shadow: 6px 6px 0 $ciano; background: #fff; }
+.pv-pagina table thead th { background: $noite; color: $gelo; font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .1em; font-weight: 400; font-size: 1.1rem; padding: .5rem .8rem; border: 0; }
+.pv-pagina table td { padding: .55rem .8rem; border-top: 1px solid #d9dcf0; vertical-align: top; }
+.pv-pagina table tbody tr:nth-child(even) { background: #f3f5ff; }
+.pv-pagina table td:first-child { white-space: nowrap; }
+.pv-pagina blockquote { border-left: 6px solid $rosa; background: #fff0f7; margin: 1.2rem 0; padding: .8rem 1rem; }
+.pv-pagina pre, .pv-pagina div.sourceCode { border: 2px solid $noite; border-left: 8px solid $rosa; background: #f6f7ff; border-radius: 0; }
+.pv-pagina code { color: #8a0f52; background: #f1f2ff; padding: .05rem .3rem; }
+.pv-pagina pre code { background: transparent; color: inherit; padding: 0; }
+.pv-pagina hr { border: 0; border-top: 3px dashed #c7cbe8; margin: 2rem 0; opacity: 1; }
+.pv-pagina ul li::marker, .pv-pagina ol li::marker { color: $rosa; font-weight: 700; }
+@media (max-width: 700px) { .pv-pagina table { display: block; overflow-x: auto; } .pv-pagina table td:first-child { white-space: normal; } }
+
+// "Sets" do dia a dia
+.pv-dia { display: flex; gap: 1.2rem; align-items: stretch; background: #fff; border: 3px solid $noite; margin: 0 0 1.1rem; text-decoration: none !important; color: $noite !important;
+  box-shadow: 8px 8px 0 $noite; transition: transform .2s ease, box-shadow .2s ease; }
+.pv-dia:hover { transform: translate(-3px, -3px); box-shadow: 11px 11px 0 $rosa; }
+.pv-dia .num { background: $noite; color: $gelo; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 110px; padding: .8rem; }
+.pv-dia .num b { font-family: "Anton", Impact, sans-serif; font-size: 3.6rem; line-height: 1; color: $amarelo; font-weight: 400; }
+.pv-dia .num i { font-style: normal; font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .15em; }
+.pv-dia .corpo { display: flex; flex-direction: column; gap: .3rem; padding: .8rem 1rem .9rem 0; }
+.pv-dia .atracao { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1; }
+.pv-dia .desc { font-size: .98rem; color: #2b2f55; }
+.pv-dia u { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .1em; color: #D4126F; font-size: 1.1rem; margin-top: .2rem; }
+.pv-dia .a1 { font-family: "Anton", Impact, sans-serif; }
+.pv-dia .a2 { font-family: "Bowlby One", Impact, sans-serif; font-size: clamp(1.6rem, 6vw, 2.5rem); color: $rosa; }
+.pv-dia .a3 { font-family: "League Gothic", Impact, sans-serif; font-size: clamp(2.6rem, 9vw, 4rem); }
+.pv-dia .a4 { font-family: "Alfa Slab One", Georgia, serif; color: $rosa; }
+.pv-dia .a5 { font-family: "Bungee", Impact, sans-serif; font-size: clamp(1.5rem, 5vw, 2.4rem); }
+@media (max-width: 560px) { .pv-dia { flex-direction: column; } .pv-dia .num { flex-direction: row; gap: .6rem; min-width: 0; } .pv-dia .corpo { padding: .2rem 1rem 1rem; } }
+
+// Sobre mim dentro do banner de página
+.sobre-hero { padding-bottom: 2.4rem; }
+.sobre-hero .sobre { background: transparent; margin: 1rem auto 0; padding: 0; border: 0; justify-content: center; max-width: 820px; text-align: left; }
+.sobre-hero .sobre::after { display: none; }
+
+.pv-pagina table td:first-child { width: 26%; }

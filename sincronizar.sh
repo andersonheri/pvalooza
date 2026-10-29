@@ -4,6 +4,6 @@
 set -euo pipefail
 ORIGEM="${1:?informe o caminho do repositório privado acr-curso-2027}"
 cp "$ORIGEM"/docs/*.md docs/
-cp "$ORIGEM"/site/*.qmd "$ORIGEM"/site/_quarto.yml "$ORIGEM"/site/styles.scss site/
+cp "$ORIGEM"/site/*.qmd "$ORIGEM"/site/_quarto.yml "$ORIGEM"/site/styles.scss "$ORIGEM"/site/pv-script.html site/
 mkdir -p site/img && cp "$ORIGEM"/site/img/* site/img/
 echo "Sincronizado. Confira com 'git diff' antes de dar commit."
