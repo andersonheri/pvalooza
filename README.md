@@ -1,6 +1,6 @@
 # curso-acr
 
-Site do curso **Festival Pvalooza (Edição 1): Análise de Conteúdo com LLM** (online, 11 a 15 de janeiro de 2027), com o pacote [acR](https://ahenriquecp.com/acR/).
+Site do curso **Festival Pvalooza (Edição 1): Análise de Conteúdo Automatizada em R** (online, 11 a 15 de janeiro de 2027), com o pacote [acR](https://ahenriquecp.com/acR/).
 
 Este repositório contém **só o site de apoio** (programa, tutoriais de preparação e FAQ). Slides, scripts e dados ficam no repositório privado do curso, aberto a quem for sorteado(a).
 

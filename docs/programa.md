@@ -1,4 +1,4 @@
-# Análise de Conteúdo Automatizado: texto, R e LLMs
+# Análise de Conteúdo Automatizada em R: texto, R e LLMs
 
 **Programa do curso · edição de janeiro de 2027**
 
@@ -8,8 +8,8 @@
 
 | Item | Descrição |
 |---|---|
-| **Evento** | Festival Pvalooza (Edição 1): Análise de Conteúdo com LLM |
-| **Título do curso** | Análise de Conteúdo Automatizado: texto, R e LLMs |
+| **Evento** | Festival Pvalooza (Edição 1): Análise de Conteúdo Automatizada em R |
+| **Título do curso** | Análise de Conteúdo Automatizada em R: texto, R e LLMs |
 | **Coordenação e docência** | Anderson Henrique (CEM/USP) |
 | **Apoio** | 2 monitores (a definir) |
 | **Modalidade** | Online, síncrona, pelo Google Meet |
@@ -38,7 +38,7 @@ Fundamentos da análise de conteúdo e sua passagem para o paradigma *text-as-da
 ## 3. Objetivos
 
 ### Objetivo geral
-Capacitar pesquisadores de ciências sociais e áreas afins a conduzir, em R, um fluxo reprodutível de análise de conteúdo automatizada, do texto bruto à validação dos resultados, combinando métodos quantitativos e classificação por LLM.
+Capacitar pesquisadores de ciências sociais e áreas afins a conduzir, em R, um fluxo reprodutível de análise de conteúdo automatizada em R, do texto bruto à validação dos resultados, combinando métodos quantitativos e classificação por LLM.
 
 ### Objetivos específicos
 Ao final do curso, a pessoa participante será capaz de:
