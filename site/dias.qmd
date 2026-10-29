@@ -10,12 +10,6 @@ Cada encontro tem 3 blocos e 2 pausas de 10 minutos, com o mesmo conteúdo nos d
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
 ::: {.cartao-dia}
-### Dia 0 · Teste técnico
-Opcional, 1h. Instalação, GitHub e chave de API.
-:::
-:::
-::: {.g-col-12 .g-col-md-4}
-::: {.cartao-dia}
 ### Dia 1 · Fundamentos e corpus
 Da análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares.
 :::

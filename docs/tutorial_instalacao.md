@@ -35,8 +35,8 @@ O script confere o que já está instalado, instala o que falta (incluindo o **a
 | Acentos quebrados nos gráficos | Em `Tools > Global Options > Code > Saving`, defina a codificação como UTF-8 |
 | `topicmodels` não instala (macOS) | Instale o `gfortran` pelo site do CRAN para macOS e tente de novo |
 | Falha ao ler PDF escaneado | O OCR (`tesseract`) é opcional e usado só em um exemplo do dia 1 |
-| Rede da instituição bloqueia o GitHub | Use outra rede ou venha ao dia 0, em que indicamos uma instalação alternativa do acR |
+| Rede da instituição bloqueia o GitHub | Use outra rede ou abra uma Issue: indicamos uma instalação alternativa do acR |
 
-## 5. Dia 0 (opcional)
+## 5. Se algo não funcionar
 
-Se, mesmo assim, algo não funcionar, venha ao dia 0 (1h, ao vivo no Meet): ajudamos a resolver instalação, GitHub e chave de API.
+As instruções finais de preparação serão enviadas por e-mail, mais perto do curso. Se quiser adiantar e algo falhar, rode `source("scripts/00_checklist_ambiente.R")`, copie o quadro que aparece e abra uma Issue (modelo "Dúvida técnica") ou uma Discussion no repositório. Respondemos antes do curso.

@@ -25,7 +25,6 @@
 | **Gravação** | As aulas não serão gravadas |
 | **Certificação** | Não há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda |
 | **Calendário de seleção** | Inscrições até 15 de novembro de 2026 · resultado do sorteio, por e-mail, até 20 de novembro · sorteados expressam interesse até 15 de dezembro · lista final de participantes até 27 de dezembro |
-| **Sessão opcional (dia 0)** | 1h de teste técnico de R, GitHub e chave de API, na semana anterior (data a definir). Não conta na carga horária |
 
 ---
 
@@ -86,9 +85,6 @@ Amostragem para validação humana; planilha de revisão; concordância entre co
 ## 6. Programação por dia
 
 Cada encontro tem 3 blocos e 2 pausas de 10 minutos. Os horários abaixo valem para os dois turnos (manhã: início às 9h00; noite: início às 18h30).
-
-### Dia 0 (opcional) · Teste técnico · 1h
-Instalação de R, RStudio e dos pacotes (`renv`), teste de conta no GitHub, criação e teste da chave de API (Gemini e Groq) e *checklist* de ambiente.
 
 ### Dia 1 · Fundamentos e corpus
 | Tempo | Atividade |

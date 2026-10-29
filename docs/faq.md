@@ -14,4 +14,4 @@
 
 **Meu computador é antigo.** Para os exercícios do curso, 8 GB de RAM bastam. Não usamos LLM local.
 
-**Minha instituição bloqueia o GitHub.** Use outra rede ou o dia 0. Se for caso de instalação do acR, o professor indicará um arquivo local.
+**Minha instituição bloqueia o GitHub.** Use outra rede ou abra uma Issue. Se for caso de instalação do acR, o professor indicará um arquivo local.

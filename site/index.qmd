@@ -75,10 +75,12 @@ Do texto bruto à validação dos resultados, em R: importar arquivos `.xlsx`, `
 
 ## Prepare-se
 
+As **instruções de preparação serão enviadas por e-mail, mais perto do curso**. Quem quiser adiantar pode ver os tutoriais:
+
 1. [Crie sua conta no GitHub](tutorial_github.html)
 2. [Instale R, RStudio e os pacotes](tutorial_instalacao.html)
 3. [Crie sua chave de API (Gemini ou Groq)](tutorial_api_gemini_groq.html)
-4. Participe do **dia 0** (1h, opcional), se algo falhar
+4. Se algo falhar, abra uma Issue no [repositório do site](https://github.com/andersonheri/curso-acr/issues)
 
 Veja também o [programa completo](programa.html) e o [roteiro dia a dia](dias.html).
 
