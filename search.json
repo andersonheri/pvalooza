@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  FAQ\n  Perguntas frequentes\n\n1 · GITHUB2 · R E PACOTES3 · CHAVES DE APIFAQ\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nFAQ\nAs aulas serão gravadas? Não. Os slides e scripts ficam no repositório.\nHaverá certificado? Não nesta edição. Pode haver declaração de participação para quem tiver presença em ao menos 4 dos 5 encontros.\nPosso trocar de turno? Só em caso de necessidade, e conforme as vagas. Avise por uma Discussion.\nPerdi um dia. E agora? Baixe o repositório, rode os scripts do dia e use as Discussions. Os monitores ajudam.\nPreciso pagar por API? Não. Usamos planos gratuitos (Gemini ou Groq) e há resultados pré-computados como plano B.\nPosso usar meu próprio corpus? Sim, no mini-projeto dos dias 4 e 5. Evite dados pessoais e sensíveis na API.\nMeu computador é antigo. Para os exercícios do curso, 8 GB de RAM bastam. Não usamos LLM local.\nMinha instituição bloqueia o GitHub. Use outra rede ou abra uma Issue. Se for caso de instalação do acR, o professor indicará um arquivo local."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PVALOOZA",
+    "section": "",
+    "text": "ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ ONLINE ✺ \n\n\n  \n\n\n\n\n\n  \n    FESTIVAL DE MÉTODOS\n    PVALOOZA\n    Onde os dados sobem ao palco\n    \n      EDIÇÃO 1ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R\n      Nº1\n    \n    \n      4 a 8 de janeiro de 2027\n      15 horas · online, pelo Google Meet\n      160 vagas · 80 por turno\n    \n    INSCREVA-SE\n    VER O LINE-UP\n  \n  \n    \n    BAIXAR O CARTAZ\n  \n  \n    EDIÇÃOVITÓRIA DA REELEIÇÃODO LULA2026 ★\n  \n  p &lt; 0,05\n\n\n\n  LINE-UP\n  PALCOS\n  SORTEIO\n  CALENDÁRIO\n  PREPARAÇÃO\n\n\n\n  \n    LINE-UP\n    Cinco dias, cinco atrações. Cada encontro tem 3 blocos e 2 pausas de 10 minutos.\n    \n      LINE-UP\n      SEG · 4/1CORPUSimportação · xlsx, docx, pdf · discursos da Câmara\n      TER · 5/1TEXTO LIMPOtokens · stopwords · TF-IDF · KWIC · dicionários\n      QUA · 6/1LDAkeyness · coocorrência · Wordscores · tópicos\n      QUI · 7/1LLMcodebook · prompts · classificação · custo · riscos\n      SEX · 8/1VALIDAÇÃOkappa · Krippendorff · Gwet · relatório · mini-projeto\n    \n    \n      PALCOSManhã ou noite, 80 vagas em cada.ESCOLHA SEU PALCO →\n      SORTEIOCotas, paridade e regras claras.VER AS REGRAS →\n      PROGRAMACada bloco, cada função do acR.LER O PROGRAMA →\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    PALCOS\n    O conteúdo é o mesmo nos dois turnos. Horário de Brasília, pelo Google Meet.\n    \n      PALCO MANHÃ\n      PALCO NOITE\n    \n    \n      PALCOMANHÃ9h às 12h80 vagas · início às 9h00 · três blocos e duas pausas\n      PALCONOITE18h30 às 21h3080 vagas · início às 18h30 · três blocos e duas pausas\n    \n    \n      Quando4 a 8 JANDe 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.\n      IngressoGRATUITOSem custo. Aulas ao vivo, sem gravação.\n      Vagas160 · SORTEIOEntre inscritos elegíveis, 80 por turno.\n      Para quemR BÁSICO+Graduação, pós e profissionais, com um projeto que envolva texto.\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    SORTEIO E REGRAS\n    Inscrever-se não garante a vaga. A seleção é por sorteio entre inscritos elegíveis.\n    COMO FUNCIONA160 VAGASO sorteio é feito entre quem preenche os requisitos do formulário, com cotas por região, nível acadêmico e cor ou raça, e paridade de gênero. O resultado é enviado por e-mail; quem for sorteado(a) confirma interesse, e a vaga de quem não confirmar passa à lista de espera.\n    PRÉ-REQUISITOSR BÁSICO+R básico ou intermediário e um projeto (em andamento ou previsto) que envolva texto. É preciso computador com permissão para instalar R e RStudio, conta Google e disponibilidade nos 5 dias, no turno escolhido.\n    CERTIFICADOSEM CERTIFICADONão haverá certificado nesta edição. O formulário pergunta se há interesse em uma declaração de participação.\n    AULAS E APOIOAO VIVOAs aulas não serão gravadas. As dúvidas fora do Meet são respondidas pelas Discussions e Issues do repositório no GitHub (conta gratuita).\n    DADOS E PRIVACIDADELGPDOs dados, inclusive os de cor ou raça e de gênero (sensíveis), são usados apenas para as cotas e a paridade do sorteio e para organizar o curso. Os dados são apagados ao fim do curso, exceto os agregados e anônimos.\n    INSCREVA-SE ATÉ 15/11\n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    CALENDÁRIO\n    \n      Até 15 de novembro de 2026 inscriçõesFormulário de inscrição\n      Até 20 de novembro resultado do sorteio, por e-mail\n      Até 15 de dezembro sorteados confirmam interesse\n      Até 27 de dezembro lista final\n      4 a 8 de janeiro de 2027 o festival\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    PREPARAÇÃO\n    As instruções de preparação serão enviadas por e-mail, mais perto do curso. Quem quiser adiantar pode ver os tutoriais.\n    \n      1 · CONTA NO GITHUB\n      2 · R, RSTUDIO E PACOTES\n      3 · CHAVES DE API\n    \n    \n      \n      Docente: Anderson Henrique (CEM/USP)Autor do pacote acR. Sobre mim →\n    \n    \n      Evento acadêmico independente. \"Pvalooza\" é uma brincadeira com o p-valor e com a linguagem dos festivais de música. Não há relação com o Lollapalooza nem com seus organizadores, e nenhuma marca, logotipo ou imagem deles é usada aqui. Ilustrações e identidade visual originais."
+  },
+  {
+    "objectID": "tutorial_github.html",
+    "href": "tutorial_github.html",
+    "title": "CONTA NO GITHUB",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 1"
+  },
+  {
+    "objectID": "tutorial_github.html#criar-a-conta-5-minutos",
+    "href": "tutorial_github.html#criar-a-conta-5-minutos",
+    "title": "CONTA NO GITHUB",
+    "section": "1. Criar a conta (5 minutos)",
+    "text": "1. Criar a conta (5 minutos)\n\nAcesse https://github.com/signup.\nInforme e-mail, senha e um nome de usuário. Prefira algo que você não se importe em tornar público.\nConfirme o e-mail que o GitHub enviar.\nEnvie o seu usuário no formulário (ou ao docente), para receber o convite do repositório."
+  },
+  {
+    "objectID": "tutorial_github.html#aceitar-o-convite",
+    "href": "tutorial_github.html#aceitar-o-convite",
+    "title": "CONTA NO GITHUB",
+    "section": "2. Aceitar o convite",
+    "text": "2. Aceitar o convite\nQuando você for sorteado(a), receberá um e-mail do GitHub com o convite para acr-curso-2027. Clique em View invitation e depois em Accept invitation. O convite expira em 7 dias."
+  },
+  {
+    "objectID": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
+    "href": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
+    "title": "CONTA NO GITHUB",
+    "section": "3. Baixar os materiais (sem usar git)",
+    "text": "3. Baixar os materiais (sem usar git)\n\nAbra o repositório e clique no botão verde Code.\nClique em Download ZIP e descompacte a pasta.\nAbra o arquivo acr-curso-2027.Rproj no RStudio.\n\nA cada dia, baixe o ZIP de novo (ou apenas a pasta do dia), pois liberamos os slides e scripts de cada dia no dia anterior."
+  },
+  {
+    "objectID": "tutorial_github.html#tirar-dúvidas",
+    "href": "tutorial_github.html#tirar-dúvidas",
+    "title": "CONTA NO GITHUB",
+    "section": "4. Tirar dúvidas",
+    "text": "4. Tirar dúvidas\n\nDiscussions (aba Discussions): dúvidas conceituais, de método e de organização. Procure antes se alguém já perguntou.\nIssues (aba Issues, botão New issue, modelo “Dúvida técnica”): erros de código, instalação e API.\n\n\nComo escrever uma boa dúvida técnica\n\nDiga em qual script e em qual linha o erro aparece.\nCole a mensagem de erro completa, entre três crases (```) antes e depois.\nCole o resultado de sessionInfo().\nNunca cole sua chave de API. Se colar sem querer, apague a mensagem e crie outra chave."
+  },
+  {
+    "objectID": "tutorial_github.html#regras-de-convivência",
+    "href": "tutorial_github.html#regras-de-convivência",
+    "title": "CONTA NO GITHUB",
+    "section": "5. Regras de convivência",
+    "text": "5. Regras de convivência\n\nRespeito ao falar com colegas e monitores.\nNão publique dados pessoais ou sensíveis de ninguém, nem seus.\nOs monitores respondem durante os horários do curso e, depois, em até um dia útil."
+  },
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "PROGRAMA",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Edição 1 · 4 a 8 de janeiro de 2027 · 15 horas"
+  },
+  {
+    "objectID": "programa.html#dados-gerais",
+    "href": "programa.html#dados-gerais",
+    "title": "PROGRAMA",
+    "section": "1. Dados gerais",
+    "text": "1. Dados gerais\n\n\n\n\n\n\n\nItem\nDescrição\n\n\n\n\nEvento\nFestival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R\n\n\nTítulo do curso\nAnálise de Conteúdo Automatizada em R: texto, R e LLMs\n\n\nCoordenação e docência\nAnderson Henrique (CEM/USP)\n\n\nApoio\nMonitores (a divulgar)\n\n\nModalidade\nOnline, síncrona, pelo Google Meet\n\n\nDatas\n4 a 8 de janeiro de 2027 (segunda a sexta), a confirmar em dezembro de 2026\n\n\nCarga horária\n15 horas (5 encontros de 3h)\n\n\nTurnos\nManhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Conteúdo idêntico nos dois turnos\n\n\nVagas\n160 (80 por turno), por sorteio entre inscritos elegíveis, com cotas por região, nível acadêmico e raça, e paridade de gênero\n\n\nPúblico\nEstudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com projeto que envolva texto\n\n\nPré-requisitos\nR básico/intermediário (importar dados, usar pacotes, rodar scripts), computador com R e RStudio, conta Google e conta no GitHub\n\n\nSoftware\nR (≥ 4.1), RStudio, pacote acR, renv para versões fixas dos pacotes\n\n\nMateriais\nRepositório do curso no GitHub (convite aos selecionados; aberto ao público depois da edição) e este site\n\n\nSuporte\nDiscussions e Issues do repositório no GitHub\n\n\nGravação\nAs aulas não serão gravadas\n\n\nCertificação\nNão há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda\n\n\nCalendário de seleção\nInscrições até 15 de novembro de 2026 · resultado do sorteio, por e-mail, até 20 de novembro · sorteados expressam interesse até 15 de dezembro · lista final de participantes até 27 de dezembro"
+  },
+  {
+    "objectID": "programa.html#ementa",
+    "href": "programa.html#ementa",
+    "title": "PROGRAMA",
+    "section": "2. Ementa",
+    "text": "2. Ementa\nFundamentos da análise de conteúdo e sua passagem para o paradigma text-as-data. Importação de textos de fontes heterogêneas (planilhas, documentos Word e PDFs) e construção de corpus. Pré-processamento e descrição quantitativa de textos em português. Métodos de contagem, contexto e dicionários. Comparação entre grupos (keyness), escalonamento e modelagem de tópicos (LDA). Codificação com modelos de linguagem de grande porte (LLMs): codebook, prompts, saída estruturada e classificação em lote. Validação com codificação humana (concordância entre codificadores, métricas de classificação), custo, viés, reprodutibilidade e boas práticas de relato. Uso integrado do pacote acR, que combina os módulos qualitativo (LLM) e quantitativo em um mesmo fluxo."
+  },
+  {
+    "objectID": "programa.html#objetivos",
+    "href": "programa.html#objetivos",
+    "title": "PROGRAMA",
+    "section": "3. Objetivos",
+    "text": "3. Objetivos\n\nObjetivo geral\nCapacitar pesquisadores de ciências sociais e áreas afins a conduzir, em R, um fluxo reprodutível de análise de conteúdo automatizada em R, do texto bruto à validação dos resultados, combinando métodos quantitativos e classificação por LLM.\n\n\nObjetivos específicos\nAo final do curso, a pessoa participante será capaz de:\n\nDistinguir análise de conteúdo clássica, métodos quantitativos de texto e codificação por LLM, e escolher o método adequado a uma pergunta de pesquisa.\nImportar textos de arquivos .xlsx, .docx e .pdf e de fontes abertas (como discursos parlamentares) e organizá-los em um corpus.\nPré-processar textos em português e produzir análises descritivas (frequências, TF-IDF, KWIC, colocações, legibilidade, diversidade lexical).\nAplicar dicionários, keyness, escalonamento e LDA, e interpretar seus resultados e limites.\nConstruir um codebook e usar um LLM, via API, para classificar textos de forma estruturada, estimando custos e riscos.\nValidar classificações automáticas contra codificação humana com amostragem, kappa, alfa de Krippendorff, AC1 de Gwet, precisão, revocação e F1.\nDocumentar o fluxo de modo reprodutível (projeto R, renv, scripts numerados, registro de versões e modelos) e relatar o método com transparência."
+  },
+  {
+    "objectID": "programa.html#metodologia",
+    "href": "programa.html#metodologia",
+    "title": "PROGRAMA",
+    "section": "4. Metodologia",
+    "text": "4. Metodologia\n\nAulas expositivas dialogadas curtas, seguidas de prática guiada, no formato live coding com os scripts do repositório.\nPrática em R em cada bloco, com scripts numerados e dados fornecidos. Para quem tiver problemas técnicos, há resultados pré-computados em cada etapa.\nLLM com plano B: cada participante cria sua chave gratuita (Gemini ou Groq). Quem não conseguir usa as classificações pré-computadas, e o aprendizado não depende da API.\nMini-projeto (dias 4 e 5), em que cada pessoa aplica o fluxo a um corpus de sua escolha ou ao corpus do curso.\nSuporte assíncrono por Discussions e Issues no GitHub, com monitores.\nParticipação sem nota. Não há prova nem aprovação por nota."
+  },
+  {
+    "objectID": "programa.html#conteúdo-programático",
+    "href": "programa.html#conteúdo-programático",
+    "title": "PROGRAMA",
+    "section": "5. Conteúdo programático",
+    "text": "5. Conteúdo programático\nMódulo 1 · Fundamentos e corpus Da análise de conteúdo clássica à automatizada; erros típicos da pesquisa com texto; o pipeline do acR; projeto em R com renv; importação de .xlsx, .docx e .pdf; coleta de discursos parlamentares; estrutura de um corpus.\nMódulo 2 · Pré-processamento e descrição Limpeza e normalização; tokenização; stopwords em português; escolhas de pré-processamento e seus efeitos; frequências e TF-IDF; KWIC e colocações; legibilidade e diversidade lexical; Lei de Zipf; dicionários e léxicos de sentimento e emoção.\nMódulo 3 · Comparação e modelagem Keyness entre grupos; coocorrência; Wordscores e escalonamento; análise de correspondência; agrupamento de documentos; LDA e escolha do número de tópicos; séries temporais de métricas textuais; noções de embeddings (conceitual).\nMódulo 4 · LLMs na análise de conteúdo Quando usar LLM; provedores e modelos (Gemini, Groq, outros); chaves de API; construção de codebook; prompts e saída estruturada; classificação em lote; estimativa de tokens e de custo; consistência, viés e alucinação; dados sensíveis e LLM local.\nMódulo 5 · Validação e reprodutibilidade Amostragem para validação humana; planilha de revisão; concordância entre codificadores (kappa, Krippendorff, Gwet) e o paradoxo do kappa; métricas de classificação; comparação dicionário × LLM × humano; relatório de método; boas práticas de reprodutibilidade; apresentação dos mini-projetos."
+  },
+  {
+    "objectID": "programa.html#programação-por-dia",
+    "href": "programa.html#programação-por-dia",
+    "title": "PROGRAMA",
+    "section": "6. Programação por dia",
+    "text": "6. Programação por dia\nCada encontro tem 3 blocos e 2 pausas de 10 minutos. Os horários abaixo valem para os dois turnos (manhã: início às 9h00; noite: início às 18h30).\n\nDia 1 · Fundamentos e corpus\n\n\n\n\n\n\n\nTempo\nAtividade\n\n\n\n\n0:00 a 0:15\nBoas-vindas, regras do curso, como pedir ajuda (GitHub)\n\n\n0:15 a 0:50\nBloco 1. Análise de conteúdo: do clássico ao automatizado; o pipeline do acR; text-as-data e seus riscos\n\n\n0:50 a 1:00\nPausa\n\n\n1:00 a 1:55\nBloco 2. Projeto em R e renv; importação de arquivos .xlsx, .docx e .pdf com ac_import(); criação de corpus com ac_corpus()\n\n\n1:55 a 2:05\nPausa\n\n\n2:05 a 3:00\nBloco 3. Coleta de discursos parlamentares (ac_fetch_camara(), ac_fetch_senado()); limpeza (ac_clean()); atividade: montar o corpus do curso\n\n\n\n\n\nDia 2 · Pré-processamento e descrição\n\n\n\n\n\n\n\nTempo\nAtividade\n\n\n\n\n0:00 a 0:15\nRevisão do dia 1 e dúvidas\n\n\n0:15 a 0:50\nBloco 1. Tokenização, stopwords, efeitos do pré-processamento (ac_tokenize(), ac_clean_stopwords()); contagem e TF-IDF (ac_count(), ac_top_terms(), ac_tf_idf())\n\n\n0:50 a 1:00\nPausa\n\n\n1:00 a 1:55\nBloco 2. Leitura em contexto (ac_kwic(), ac_collocations()); diagnósticos do corpus (ac_readability(), ac_lexical_diversity(), ac_plot_zipf())\n\n\n1:55 a 2:05\nPausa\n\n\n2:05 a 3:00\nBloco 3. Dicionários e sentimento (ac_dictionary(), ac_sentiment(), ac_emotion()); construir e salvar um dicionário próprio; atividade guiada\n\n\n\n\n\nDia 3 · Comparação e modelagem\n\n\n\n\n\n\n\nTempo\nAtividade\n\n\n\n\n0:00 a 0:15\nRevisão e dúvidas\n\n\n0:15 a 0:50\nBloco 1. Keyness entre grupos (ac_keyness(), ac_plot_keyness()); coocorrência (ac_cooccurrence())\n\n\n0:50 a 1:00\nPausa\n\n\n1:00 a 1:55\nBloco 2. Escalonamento e mapas (ac_wordscores(), ac_ca()); agrupamento (ac_cluster_documents()); séries temporais (ac_temporal())\n\n\n1:55 a 2:05\nPausa\n\n\n2:05 a 3:00\nBloco 3. LDA: escolha de K (ac_lda_tune()), estimação e interpretação (ac_lda()); limites dos tópicos; visão conceitual de embeddings; fechamento do bloco quantitativo\n\n\n\n\n\nDia 4 · LLMs na análise de conteúdo\n\n\n\n\n\n\n\nTempo\nAtividade\n\n\n\n\n0:00 a 0:15\nRevisão e checagem das chaves de API\n\n\n0:15 a 0:50\nBloco 1. Quando usar LLM; provedores e modelos (ac_qual_list_models(), ac_qual_recommend_model()); custo e tokens (ac_estimate_tokens()); dados sensíveis e LLM local\n\n\n0:50 a 1:00\nPausa\n\n\n1:00 a 1:55\nBloco 2. Codebook (ac_qual_codebook(), ac_qual_save_codebook()); prompts e saída estruturada\n\n\n1:55 a 2:05\nPausa\n\n\n2:05 a 3:00\nBloco 3. Classificação em lote com ac_qual_code(); consistência e erros; plano B com resultados pré-computados; início do mini-projeto\n\n\n\n\n\nDia 5 · Validação, reprodutibilidade e mini-projeto\n\n\n\n\n\n\n\nTempo\nAtividade\n\n\n\n\n0:00 a 0:15\nRevisão e dúvidas\n\n\n0:15 a 0:50\nBloco 1. Amostragem e revisão humana (ac_qual_sample(), ac_qual_export_for_review(), ac_qual_import_human())\n\n\n0:50 a 1:00\nPausa\n\n\n1:00 a 1:55\nBloco 2. Concordância e métricas (ac_qual_irr(), ac_qual_reliability()); paradoxo do kappa; dicionário × LLM × humano (ac_dictionary_validate())\n\n\n1:55 a 2:05\nPausa\n\n\n2:05 a 3:00\nBloco 3. Relatório e exportação (ac_qual_report(), ac_export()); reprodutibilidade; apresentações curtas dos mini-projetos; encerramento e próximos passos"
+  },
+  {
+    "objectID": "programa.html#avaliação-e-frequência",
+    "href": "programa.html#avaliação-e-frequência",
+    "title": "PROGRAMA",
+    "section": "7. Avaliação e frequência",
+    "text": "7. Avaliação e frequência\nNão há avaliação formal. Recomenda-se participar dos 5 encontros e entregar o mini-projeto como exercício de aprendizagem (não obrigatório). Quem solicitar declaração de participação deve ter presença em pelo menos 4 dos 5 encontros."
+  },
+  {
+    "objectID": "programa.html#bibliografia",
+    "href": "programa.html#bibliografia",
+    "title": "PROGRAMA",
+    "section": "8. Bibliografia",
+    "text": "8. Bibliografia\n\nBásica\nGRIMMER, Justin; ROBERTS, Margaret E.; STEWART, Brandon M. Text as Data: a new framework for machine learning and the social sciences. Princeton: Princeton University Press, 2022.\nKRIPPENDORFF, Klaus. Content Analysis: an introduction to its methodology. 4. ed. Thousand Oaks: Sage, 2018.\nSAMPAIO, Rafael Cardoso; LYCARIÃO, Diógenes. Análise de conteúdo categorial: manual de aplicação. Brasília: Enap, 2021.\nGRIMMER, Justin; STEWART, Brandon M. Text as data: the promise and pitfalls of automatic content analysis methods for political texts. Political Analysis, v. 21, n. 3, p. 267-297, 2013.\n\n\nComplementar: método e texto como dado\nDENNY, Matthew J.; SPIRLING, Arthur. Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, v. 26, n. 2, p. 168-189, 2018.\nWILKERSON, John; CASAS, Andreu. Large-scale computerized text analysis in political science: opportunities and challenges. Annual Review of Political Science, v. 20, p. 529-544, 2017.\nGENTZKOW, Matthew; KELLY, Bryan; TADDY, Matt. Text as data. Journal of Economic Literature, v. 57, n. 3, p. 535-574, 2019.\nSALGANIK, Matthew J. Bit by Bit: social research in the digital age. Princeton: Princeton University Press, 2018.\nBARBERÁ, Pablo et al. Automated text classification of news articles: a practical guide. Political Analysis, v. 29, n. 1, p. 19-42, 2021.\nLAVER, Michael; BENOIT, Kenneth; GARRY, John. Extracting policy positions from political texts using words as data. American Political Science Review, v. 97, n. 2, p. 311-331, 2003.\nSLAPIN, Jonathan B.; PROKSCH, Sven-Oliver. A scaling model for estimating time-series party positions from texts. American Journal of Political Science, v. 52, n. 3, p. 705-722, 2008.\nHOPKINS, Daniel J.; KING, Gary. A method of automated nonparametric content analysis for social science. American Journal of Political Science, v. 54, n. 1, p. 229-247, 2010.\nROBERTS, Margaret E. et al. Structural topic models for open-ended survey responses. American Journal of Political Science, v. 58, n. 4, p. 1064-1082, 2014.\nRODRIGUEZ, Pedro L.; SPIRLING, Arthur. Word embeddings: what works, what doesn’t, and how to tell the difference for applied research. Journal of Politics, v. 84, n. 1, p. 101-115, 2022.\n\n\nConfiabilidade e validação\nNEUENDORF, Kimberly A. The Content Analysis Guidebook. 2. ed. Thousand Oaks: Sage, 2017.\nBARDIN, Laurence. Análise de Conteúdo. São Paulo: Edições 70, 2011.\nCOHEN, Jacob. A coefficient of agreement for nominal scales. Educational and Psychological Measurement, v. 20, n. 1, p. 37-46, 1960.\nLANDIS, J. Richard; KOCH, Gary G. The measurement of observer agreement for categorical data. Biometrics, v. 33, n. 1, p. 159-174, 1977.\nGWET, Kilem L. Computing inter-rater reliability and its variance in the presence of high agreement. British Journal of Mathematical and Statistical Psychology, v. 61, n. 1, p. 29-48, 2008.\nGWET, Kilem L. Handbook of Inter-Rater Reliability. 4. ed. Gaithersburg: Advanced Analytics, 2014.\nFEINSTEIN, Alvan R.; CICCHETTI, Domenic V. High agreement but low kappa: I. The problems of two paradoxes. Journal of Clinical Epidemiology, v. 43, n. 6, p. 543-549, 1990.\nCICCHETTI, Domenic V.; FEINSTEIN, Alvan R. High agreement but low kappa: II. Resolving the paradoxes. Journal of Clinical Epidemiology, v. 43, n. 6, p. 551-558, 1990.\nLOVEJOY, Jennette et al. Assessing the reporting of reliability in published content analyses: 1985-2010. Communication Methods and Measures, v. 8, n. 3, p. 207-221, 2014.\n\n\nProdução brasileira\nIZUMI, Mauricio; MOREIRA, Davi. O texto como dado: desafios e oportunidades para as ciências sociais. BIB, n. 86, p. 138-174, 2018.\nSAMPAIO, Rafael Cardoso et al. Muita Bardin, pouca qualidade: uma avaliação sobre as análises de conteúdo qualitativas no Brasil. Revista Pesquisa Qualitativa, v. 10, n. 25, p. 464-494, 2022.\n\n\nLLMs e software\nGILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT outperforms crowd workers for text-annotation tasks. PNAS, v. 120, n. 30, 2023.\nWANG, Xuezhi et al. Self-consistency improves chain of thought reasoning in language models. EMNLP, 2023.\nBENOIT, Kenneth et al. quanteda: an R package for the quantitative analysis of textual data. Journal of Open Source Software, v. 3, n. 30, 2018.\nHENRIQUE, Anderson. acR: análise de conteúdo em R. Pacote R. Disponível em: https://ahenriquecp.com/acR/.\n\nItens acima: da lista do SICSS-Brazil 2026. A versão do acR deve ser atualizada na citação (o pacote está na 0.6.0; a citação do SICSS menciona 0.3.2).\n\n\n\nSugestões adicionais\nWELBERS, Kasper; VAN ATTEVELDT, Wouter; BENOIT, Kenneth. Text analysis in R. Communication Methods and Measures, v. 11, n. 4, p. 245-265, 2017. DOI: 10.1080/19312458.2017.1387238.\nSILGE, Julia; ROBINSON, David. Text Mining with R: a tidy approach. Sebastopol: O’Reilly, 2017.\nTÖRNBERG, Petter. ChatGPT-4 outperforms experts and crowd workers in annotating political Twitter messages with zero-shot learning. arXiv, 2304.06588, 2023.\nZIEMS, Caleb et al. Can large language models transform computational social science? Computational Linguistics, v. 50, n. 1, p. 237-291, 2024. DOI: 10.1162/coli_a_00502."
+  },
+  {
+    "objectID": "dias.html",
+    "href": "dias.html",
+    "title": "DIA A DIA",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  DIA A DIA\n  Cinco encontros · 3 blocos e 2 pausas de 10 minutos · mesmo conteúdo nos dois turnos\n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nOs slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.\n4JAN · SEGCORPUSDa análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares da Câmara.VER OS HORÁRIOS →5JAN · TERTEXTO LIMPOTokenização, stopwords, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.VER OS HORÁRIOS →6JAN · QUALDAKeyness, coocorrência, Wordscores, análise de correspondência, agrupamento e tópicos com LDA.VER OS HORÁRIOS →7JAN · QUILLMCodebook, prompts, chaves de API, classificação em lote, custo e riscos.VER OS HORÁRIOS →8JAN · SEXVALIDAÇÃOAmostragem, kappa, Krippendorff, Gwet, relatório, reprodutibilidade e mini-projeto.VER OS HORÁRIOS →\nManhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Sem gravação."
+  },
+  {
+    "objectID": "tutorial_instalacao.html",
+    "href": "tutorial_instalacao.html",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 2"
+  },
+  {
+    "objectID": "tutorial_instalacao.html#r-e-rstudio",
+    "href": "tutorial_instalacao.html#r-e-rstudio",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "1. R e RStudio",
+    "text": "1. R e RStudio\n\nInstale o R (versão 4.1 ou superior; recomendamos a mais recente): https://cran.r-project.org\nInstale o RStudio Desktop: https://posit.co/download/rstudio-desktop\nWindows: instale também o Rtools (a versão que corresponde ao seu R) em https://cran.r-project.org/bin/windows/Rtools. macOS: rode xcode-select --install no Terminal."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#abrir-o-projeto",
+    "href": "tutorial_instalacao.html#abrir-o-projeto",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "2. Abrir o projeto",
+    "text": "2. Abrir o projeto\n\nImportante: guarde a pasta do projeto em um caminho sem acentos e, de preferência, sem espaços, por exemplo C:/cursos/acr-curso-2027 (Windows) ou ~/cursos/acr-curso-2027 (macOS). Caminhos como C:/Users/João/Área de Trabalho/... quebram a leitura de arquivos em alguns computadores.\n\n\nBaixe o repositório (veja o tutorial “Conta no GitHub”, no menu Preparação).\nAbra acr-curso-2027.Rproj no RStudio.\nConfira que o diretório de trabalho é a raiz do projeto: o comando getwd() deve terminar em acr-curso-2027."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#instalar-os-pacotes",
+    "href": "tutorial_instalacao.html#instalar-os-pacotes",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "3. Instalar os pacotes",
+    "text": "3. Instalar os pacotes\nNo console do RStudio, rode:\nsource(\"scripts/00_setup.R\")\nO script confere o que já está instalado, instala o que falta (incluindo o acR direto do GitHub) e mostra um quadro final com OK ou FALTA para cada pacote. Se algum aparecer como FALTA, abra uma Issue com a mensagem de erro."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#problemas-comuns",
+    "href": "tutorial_instalacao.html#problemas-comuns",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "4. Problemas comuns",
+    "text": "4. Problemas comuns\n\n\n\n\n\n\n\nSintoma\nSolução\n\n\n\n\npackage ... is not available\nAtualize o R para a versão mais recente\n\n\nErro de compilação no Windows\nInstale o Rtools\n\n\nAcentos quebrados nos gráficos\nEm Tools &gt; Global Options &gt; Code &gt; Saving, defina a codificação como UTF-8\n\n\ntopicmodels não instala (macOS)\nInstale o gfortran pelo site do CRAN para macOS e tente de novo\n\n\nFalha ao ler PDF escaneado\nO OCR (tesseract) é opcional e usado só em um exemplo do dia 1\n\n\nRede da instituição bloqueia o GitHub\nUse outra rede ou abra uma Issue: indicamos uma instalação alternativa do acR"
+  },
+  {
+    "objectID": "tutorial_instalacao.html#se-algo-não-funcionar",
+    "href": "tutorial_instalacao.html#se-algo-não-funcionar",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "5. Se algo não funcionar",
+    "text": "5. Se algo não funcionar\nAs instruções finais de preparação serão enviadas por e-mail, mais perto do curso. Se quiser adiantar e algo falhar, rode source(\"scripts/00_checklist_ambiente.R\"), copie o quadro que aparece e abra uma Issue (modelo “Dúvida técnica”) ou uma Discussion no repositório. Respondemos antes do curso."
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Anderson Henrique",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA · HEADLINER\n  \n    \n    \n      Docente\n      \n      Cientista político · pesquisador de pós-doutorado no CEM/USP"
+  },
+  {
+    "objectID": "sobre.html#sobre-mim",
+    "href": "sobre.html#sobre-mim",
+    "title": "Anderson Henrique",
+    "section": "Sobre mim",
+    "text": "Sobre mim\nSou cientista político, doutor pela Universidade Federal de Pernambuco (UFPE, 2025) e pesquisador de pós-doutorado no Centro de Estudos da Metrópole (CEM), FAPESP/Cepid/USP, sob supervisão da Profa. Ursula Peres. Integro o INCT sobre Qualidade de Governo e Políticas para o Desenvolvimento Sustentável (INCT-QualiGov) e sou pesquisador convidado no IPEA.\nEstudo como o Estado brasileiro responde ao imprevisto: federalismo, capacidade estatal e a política das transferências de emergência, combinando desenhos quantitativos e evidências qualitativas. Também trabalho com replicabilidade e métodos em Ciência Política.\nSou autor do acR, pacote em R para análise de conteúdo (qualitativa com LLMs e quantitativa), disponível no CRAN e usado neste curso."
+  },
+  {
+    "objectID": "sobre.html#onde-me-encontrar",
+    "href": "sobre.html#onde-me-encontrar",
+    "title": "Anderson Henrique",
+    "section": "Onde me encontrar",
+    "text": "Onde me encontrar\n\n  Site pessoal\n  Currículo Lattes\n  CV (PDF, português)\n  CV (PDF, inglês)\n  X (@ande_henri)\n  GitHub\n  ORCID\n  Google Scholar\n  OSF\n  Pacote acR\n\nDúvidas sobre o curso: abra uma Issue no repositório do site."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html",
+    "href": "tutorial_api_gemini_groq.html",
+    "title": "CHAVES DE API",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 3 · Gemini ou Groq"
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#opção-a-google-gemini",
+    "href": "tutorial_api_gemini_groq.html#opção-a-google-gemini",
+    "title": "CHAVES DE API",
+    "section": "Opção A: Google Gemini",
+    "text": "Opção A: Google Gemini\n\nEntre em https://aistudio.google.com com uma conta Google.\nClique em Get API key e depois em Create API key.\nCopie a chave (uma sequência longa de letras e números)."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#opção-b-groq",
+    "href": "tutorial_api_gemini_groq.html#opção-b-groq",
+    "title": "CHAVES DE API",
+    "section": "Opção B: Groq",
+    "text": "Opção B: Groq\n\nEntre em https://console.groq.com e crie uma conta (pode usar o login do Google).\nNo menu, abra API Keys e clique em Create API Key.\nDê um nome (por exemplo, curso-acr) e copie a chave. Ela só aparece uma vez."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#guardar-a-chave-no-r-sem-deixá-la-em-scripts",
+    "href": "tutorial_api_gemini_groq.html#guardar-a-chave-no-r-sem-deixá-la-em-scripts",
+    "title": "CHAVES DE API",
+    "section": "Guardar a chave no R (sem deixá-la em scripts)",
+    "text": "Guardar a chave no R (sem deixá-la em scripts)\nNo console do RStudio:\ninstall.packages(\"usethis\")   # se ainda não tiver\nusethis::edit_r_environ()\nAbre-se o arquivo .Renviron. Acrescente uma linha por chave, sem aspas e sem espaços:\nGOOGLE_API_KEY=cole_aqui_sua_chave_do_gemini\nGROQ_API_KEY=cole_aqui_sua_chave_do_groq\nSalve o arquivo, reinicie o R (Session &gt; Restart R) e confira:\nnzchar(Sys.getenv(\"GOOGLE_API_KEY\"))\nnzchar(Sys.getenv(\"GROQ_API_KEY\"))\nDeve aparecer TRUE para as chaves que você criou."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#testar",
+    "href": "tutorial_api_gemini_groq.html#testar",
+    "title": "CHAVES DE API",
+    "section": "Testar",
+    "text": "Testar\nRode:\nsource(\"scripts/00_teste_api.R\")\nO script envia uma pergunta curta a cada provedor com chave configurada e informa OK ou o motivo do erro."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#segurança",
+    "href": "tutorial_api_gemini_groq.html#segurança",
+    "title": "CHAVES DE API",
+    "section": "Segurança",
+    "text": "Segurança\n\nNunca cole a chave em scripts, Issues, Discussions, prints ou e-mails.\nO arquivo .Renviron fica na sua pasta pessoal, fora do projeto, e o .gitignore do repositório também o bloqueia.\nSe a chave vazar, apague-a no painel do provedor e crie outra."
+  },
+  {
+    "objectID": "tutorial_api_gemini_groq.html#problemas-comuns",
+    "href": "tutorial_api_gemini_groq.html#problemas-comuns",
+    "title": "CHAVES DE API",
+    "section": "Problemas comuns",
+    "text": "Problemas comuns\n\n\n\n\n\n\n\nMensagem\nO que fazer\n\n\n\n\n401 ou API key not valid\nA chave foi copiada errada ou o R não foi reiniciado\n\n\n429 ou quota exceeded\nLimite gratuito atingido. Espere alguns minutos, troque de provedor ou use o plano B\n\n\nSem chave no teste\nO .Renviron não foi salvo ou o nome da variável está errado\n\n\nFalha só na rede da instituição\nTeste em outra rede (por exemplo, o celular como roteador)"
+  }
+]

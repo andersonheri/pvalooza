@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Programa – PVALOOZA</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e2217830e4a76e62c497ffc398a33301.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<meta property="og:title" content="Programa">
+<meta property="og:description" content="Curso online de texto, R e LLMs com o pacote acR · 4 a 8 de janeiro de 2027">
+<meta property="og:image" content="https://ahenriquecp.com/pvalooza/img/og.png">
+<meta property="og:site_name" content="PVALOOZA">
+<meta property="og:image:height" content="675">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Programa">
+<meta name="twitter:description" content="Curso online de texto, R e LLMs com o pacote acR · 4 a 8 de janeiro de 2027">
+<meta name="twitter:image" content="https://ahenriquecp.com/pvalooza/img/og.png">
+<meta name="twitter:creator" content="@ande_henri">
+<meta name="twitter:site" content="@ande_henri">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="675">
+<meta name="twitter:image-width" content="1200">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="./img/logo.svg" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">PVALOOZA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./programa.html" aria-current="page"> 
+<span class="menu-text">Programa</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-preparação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Preparação</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-preparação">    
+        <li>
+    <a class="dropdown-item" href="./tutorial_github.html">
+ <span class="dropdown-text">1. Conta no GitHub</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorial_instalacao.html">
+ <span class="dropdown-text">2. R, RStudio e pacotes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorial_api_gemini_groq.html">
+ <span class="dropdown-text">3. Chaves de API</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./dias.html"> 
+<span class="menu-text">Dia a dia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sobre.html"> 
+<span class="menu-text">Sobre mim</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://ahenriquecp.com/acR/"> <i class="bi bi-box-seam" role="img" aria-label="Pacote acR">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section class="pv-pagina-hero"><svg class="pv-doodle d1" viewbox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"></path></svg><svg class="pv-doodle d2" viewbox="0 0 60 60" aria-hidden="true"><path d="M34 4L14 34h14l-4 22 22-32H32z" fill="#FF2E93"></path></svg><svg class="pv-doodle d3" viewbox="0 0 80 40" aria-hidden="true"><path d="M2 20c8-16 14-16 22 0s14 16 22 0 14-16 22 0" fill="none" stroke="#19E3D3" stroke-width="4" stroke-linecap="round"></path></svg><svg class="pv-doodle d4" viewbox="0 0 60 60" aria-hidden="true"><path d="M30 6v48M6 30h48M13 13l34 34M47 13L13 47" stroke="#FF2E93" stroke-width="4" stroke-linecap="round"></path></svg>
+  <p class="pv-festival">FESTIVAL DE MÉTODOS PVALOOZA</p>
+  <h1 class="pv-pagina-titulo">PROGRAMA</h1>
+  <p class="pv-pagina-sub">Edição 1 · 4 a 8 de janeiro de 2027 · 15 horas</p>
+</section>
+
+<div class="pv-rasgo" aria-hidden="true"><svg viewbox="0 0 1000 100" preserveaspectratio="none"><rect width="1000" height="100" fill="#0B1033"></rect><polygon points="0,100 0,63 31,84 59,63 89,72 109,46 139,65 173,74 192,41 220,54 238,40 269,79 303,37 336,60 364,76 397,76 416,74 430,68 446,38 461,47 482,73 496,84 524,55 552,72 572,68 593,75 616,66 630,77 646,64 680,52 707,70 723,80 745,55 766,67 789,36 805,71 822,60 839,53 865,39 879,78 893,48 913,38 942,59 968,61 984,71 1000,100" fill="#FF2E93"></polygon><g class="selos"><text x="40" y="26">★ p &lt; 0,05 ★</text><text x="360" y="26">★ PVALOOZA ★</text><text x="680" y="26">★ p &lt; 0,05 ★</text></g></svg></div>
+<nav class="pv-abas" aria-label="Seções do programa"><a href="#dados-gerais">VISÃO GERAL</a><a href="#objetivos">OBJETIVOS</a><a href="#metodologia">METODOLOGIA</a><a href="#conteúdo-programático">CONTEÚDO</a><a href="#programação-por-dia">POR DIA</a><a href="#bibliografia">BIBLIOGRAFIA</a></nav>
+<section id="análise-de-conteúdo-automatizada-em-r-texto-r-e-llms" class="level1 pv-pagina">
+<h1>Análise de Conteúdo Automatizada em R: texto, R e LLMs</h1>
+<p><strong>Programa do curso · edição de janeiro de 2027</strong></p>
+<hr>
+<section id="dados-gerais" class="level2">
+<h2 class="anchored" data-anchor-id="dados-gerais">1. Dados gerais</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Evento</strong></td>
+<td>Festival de Métodos Pvalooza · Edição 1: Análise de Conteúdo Automatizada em R</td>
+</tr>
+<tr class="even">
+<td><strong>Título do curso</strong></td>
+<td>Análise de Conteúdo Automatizada em R: texto, R e LLMs</td>
+</tr>
+<tr class="odd">
+<td><strong>Coordenação e docência</strong></td>
+<td>Anderson Henrique (CEM/USP)</td>
+</tr>
+<tr class="even">
+<td><strong>Apoio</strong></td>
+<td>Monitores (a divulgar)</td>
+</tr>
+<tr class="odd">
+<td><strong>Modalidade</strong></td>
+<td>Online, síncrona, pelo Google Meet</td>
+</tr>
+<tr class="even">
+<td><strong>Datas</strong></td>
+<td>4 a 8 de janeiro de 2027 (segunda a sexta), a confirmar em dezembro de 2026</td>
+</tr>
+<tr class="odd">
+<td><strong>Carga horária</strong></td>
+<td>15 horas (5 encontros de 3h)</td>
+</tr>
+<tr class="even">
+<td><strong>Turnos</strong></td>
+<td>Manhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Conteúdo idêntico nos dois turnos</td>
+</tr>
+<tr class="odd">
+<td><strong>Vagas</strong></td>
+<td>160 (80 por turno), por sorteio entre inscritos elegíveis, com cotas por região, nível acadêmico e raça, e paridade de gênero</td>
+</tr>
+<tr class="even">
+<td><strong>Público</strong></td>
+<td>Estudantes de graduação, mestrado e doutorado, pós-doutorandos e profissionais de qualquer área, com projeto que envolva texto</td>
+</tr>
+<tr class="odd">
+<td><strong>Pré-requisitos</strong></td>
+<td>R básico/intermediário (importar dados, usar pacotes, rodar scripts), computador com R e RStudio, conta Google e conta no GitHub</td>
+</tr>
+<tr class="even">
+<td><strong>Software</strong></td>
+<td>R (≥ 4.1), RStudio, pacote <strong>acR</strong>, <code>renv</code> para versões fixas dos pacotes</td>
+</tr>
+<tr class="odd">
+<td><strong>Materiais</strong></td>
+<td>Repositório do curso no GitHub (convite aos selecionados; aberto ao público depois da edição) e este site</td>
+</tr>
+<tr class="even">
+<td><strong>Suporte</strong></td>
+<td>Discussions e Issues do repositório no GitHub</td>
+</tr>
+<tr class="odd">
+<td><strong>Gravação</strong></td>
+<td>As aulas não serão gravadas</td>
+</tr>
+<tr class="even">
+<td><strong>Certificação</strong></td>
+<td>Não há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda</td>
+</tr>
+<tr class="odd">
+<td><strong>Calendário de seleção</strong></td>
+<td>Inscrições até 15 de novembro de 2026 · resultado do sorteio, por e-mail, até 20 de novembro · sorteados expressam interesse até 15 de dezembro · lista final de participantes até 27 de dezembro</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="ementa" class="level2">
+<h2 class="anchored" data-anchor-id="ementa">2. Ementa</h2>
+<p>Fundamentos da análise de conteúdo e sua passagem para o paradigma <em>text-as-data</em>. Importação de textos de fontes heterogêneas (planilhas, documentos Word e PDFs) e construção de corpus. Pré-processamento e descrição quantitativa de textos em português. Métodos de contagem, contexto e dicionários. Comparação entre grupos (<em>keyness</em>), escalonamento e modelagem de tópicos (LDA). Codificação com modelos de linguagem de grande porte (LLMs): codebook, <em>prompts</em>, saída estruturada e classificação em lote. Validação com codificação humana (concordância entre codificadores, métricas de classificação), custo, viés, reprodutibilidade e boas práticas de relato. Uso integrado do pacote <strong>acR</strong>, que combina os módulos qualitativo (LLM) e quantitativo em um mesmo fluxo.</p>
+<hr>
+</section>
+<section id="objetivos" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos">3. Objetivos</h2>
+<section id="objetivo-geral" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo-geral">Objetivo geral</h3>
+<p>Capacitar pesquisadores de ciências sociais e áreas afins a conduzir, em R, um fluxo reprodutível de análise de conteúdo automatizada em R, do texto bruto à validação dos resultados, combinando métodos quantitativos e classificação por LLM.</p>
+</section>
+<section id="objetivos-específicos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos específicos</h3>
+<p>Ao final do curso, a pessoa participante será capaz de:</p>
+<ol type="1">
+<li>Distinguir análise de conteúdo clássica, métodos quantitativos de texto e codificação por LLM, e escolher o método adequado a uma pergunta de pesquisa.</li>
+<li>Importar textos de arquivos <code>.xlsx</code>, <code>.docx</code> e <code>.pdf</code> e de fontes abertas (como discursos parlamentares) e organizá-los em um corpus.</li>
+<li>Pré-processar textos em português e produzir análises descritivas (frequências, TF-IDF, KWIC, colocações, legibilidade, diversidade lexical).</li>
+<li>Aplicar dicionários, <em>keyness</em>, escalonamento e LDA, e interpretar seus resultados e limites.</li>
+<li>Construir um codebook e usar um LLM, via API, para classificar textos de forma estruturada, estimando custos e riscos.</li>
+<li>Validar classificações automáticas contra codificação humana com amostragem, kappa, alfa de Krippendorff, AC1 de Gwet, precisão, revocação e F1.</li>
+<li>Documentar o fluxo de modo reprodutível (projeto R, <code>renv</code>, scripts numerados, registro de versões e modelos) e relatar o método com transparência.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="metodologia" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia">4. Metodologia</h2>
+<ul>
+<li><strong>Aulas expositivas dialogadas</strong> curtas, seguidas de prática guiada, no formato <em>live coding</em> com os scripts do repositório.</li>
+<li><strong>Prática em R</strong> em cada bloco, com scripts numerados e dados fornecidos. Para quem tiver problemas técnicos, há resultados pré-computados em cada etapa.</li>
+<li><strong>LLM com plano B:</strong> cada participante cria sua chave gratuita (Gemini ou Groq). Quem não conseguir usa as classificações pré-computadas, e o aprendizado não depende da API.</li>
+<li><strong>Mini-projeto</strong> (dias 4 e 5), em que cada pessoa aplica o fluxo a um corpus de sua escolha ou ao corpus do curso.</li>
+<li><strong>Suporte assíncrono</strong> por Discussions e Issues no GitHub, com monitores.</li>
+<li><strong>Participação sem nota.</strong> Não há prova nem aprovação por nota.</li>
+</ul>
+<hr>
+</section>
+<section id="conteúdo-programático" class="level2">
+<h2 class="anchored" data-anchor-id="conteúdo-programático">5. Conteúdo programático</h2>
+<p><strong>Módulo 1 · Fundamentos e corpus</strong> Da análise de conteúdo clássica à automatizada; erros típicos da pesquisa com texto; o pipeline do acR; projeto em R com <code>renv</code>; importação de <code>.xlsx</code>, <code>.docx</code> e <code>.pdf</code>; coleta de discursos parlamentares; estrutura de um corpus.</p>
+<p><strong>Módulo 2 · Pré-processamento e descrição</strong> Limpeza e normalização; tokenização; stopwords em português; escolhas de pré-processamento e seus efeitos; frequências e TF-IDF; KWIC e colocações; legibilidade e diversidade lexical; Lei de Zipf; dicionários e léxicos de sentimento e emoção.</p>
+<p><strong>Módulo 3 · Comparação e modelagem</strong> <em>Keyness</em> entre grupos; coocorrência; Wordscores e escalonamento; análise de correspondência; agrupamento de documentos; LDA e escolha do número de tópicos; séries temporais de métricas textuais; noções de <em>embeddings</em> (conceitual).</p>
+<p><strong>Módulo 4 · LLMs na análise de conteúdo</strong> Quando usar LLM; provedores e modelos (Gemini, Groq, outros); chaves de API; construção de codebook; <em>prompts</em> e saída estruturada; classificação em lote; estimativa de tokens e de custo; consistência, viés e alucinação; dados sensíveis e LLM local.</p>
+<p><strong>Módulo 5 · Validação e reprodutibilidade</strong> Amostragem para validação humana; planilha de revisão; concordância entre codificadores (kappa, Krippendorff, Gwet) e o paradoxo do kappa; métricas de classificação; comparação dicionário × LLM × humano; relatório de método; boas práticas de reprodutibilidade; apresentação dos mini-projetos.</p>
+<hr>
+</section>
+<section id="programação-por-dia" class="level2">
+<h2 class="anchored" data-anchor-id="programação-por-dia">6. Programação por dia</h2>
+<p>Cada encontro tem 3 blocos e 2 pausas de 10 minutos. Os horários abaixo valem para os dois turnos (manhã: início às 9h00; noite: início às 18h30).</p>
+<section id="dia-1-fundamentos-e-corpus" class="level3">
+<h3 class="anchored" data-anchor-id="dia-1-fundamentos-e-corpus">Dia 1 · Fundamentos e corpus</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tempo</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0:00 a 0:15</td>
+<td>Boas-vindas, regras do curso, como pedir ajuda (GitHub)</td>
+</tr>
+<tr class="even">
+<td>0:15 a 0:50</td>
+<td><strong>Bloco 1.</strong> Análise de conteúdo: do clássico ao automatizado; o pipeline do acR; <em>text-as-data</em> e seus riscos</td>
+</tr>
+<tr class="odd">
+<td>0:50 a 1:00</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>1:00 a 1:55</td>
+<td><strong>Bloco 2.</strong> Projeto em R e <code>renv</code>; <strong>importação de arquivos</strong> <code>.xlsx</code>, <code>.docx</code> e <code>.pdf</code> com <code>ac_import()</code>; criação de corpus com <code>ac_corpus()</code></td>
+</tr>
+<tr class="odd">
+<td>1:55 a 2:05</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>2:05 a 3:00</td>
+<td><strong>Bloco 3.</strong> Coleta de discursos parlamentares (<code>ac_fetch_camara()</code>, <code>ac_fetch_senado()</code>); limpeza (<code>ac_clean()</code>); atividade: montar o corpus do curso</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dia-2-pré-processamento-e-descrição" class="level3">
+<h3 class="anchored" data-anchor-id="dia-2-pré-processamento-e-descrição">Dia 2 · Pré-processamento e descrição</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tempo</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0:00 a 0:15</td>
+<td>Revisão do dia 1 e dúvidas</td>
+</tr>
+<tr class="even">
+<td>0:15 a 0:50</td>
+<td><strong>Bloco 1.</strong> Tokenização, stopwords, efeitos do pré-processamento (<code>ac_tokenize()</code>, <code>ac_clean_stopwords()</code>); contagem e TF-IDF (<code>ac_count()</code>, <code>ac_top_terms()</code>, <code>ac_tf_idf()</code>)</td>
+</tr>
+<tr class="odd">
+<td>0:50 a 1:00</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>1:00 a 1:55</td>
+<td><strong>Bloco 2.</strong> Leitura em contexto (<code>ac_kwic()</code>, <code>ac_collocations()</code>); diagnósticos do corpus (<code>ac_readability()</code>, <code>ac_lexical_diversity()</code>, <code>ac_plot_zipf()</code>)</td>
+</tr>
+<tr class="odd">
+<td>1:55 a 2:05</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>2:05 a 3:00</td>
+<td><strong>Bloco 3.</strong> Dicionários e sentimento (<code>ac_dictionary()</code>, <code>ac_sentiment()</code>, <code>ac_emotion()</code>); construir e salvar um dicionário próprio; atividade guiada</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dia-3-comparação-e-modelagem" class="level3">
+<h3 class="anchored" data-anchor-id="dia-3-comparação-e-modelagem">Dia 3 · Comparação e modelagem</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tempo</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0:00 a 0:15</td>
+<td>Revisão e dúvidas</td>
+</tr>
+<tr class="even">
+<td>0:15 a 0:50</td>
+<td><strong>Bloco 1.</strong> <em>Keyness</em> entre grupos (<code>ac_keyness()</code>, <code>ac_plot_keyness()</code>); coocorrência (<code>ac_cooccurrence()</code>)</td>
+</tr>
+<tr class="odd">
+<td>0:50 a 1:00</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>1:00 a 1:55</td>
+<td><strong>Bloco 2.</strong> Escalonamento e mapas (<code>ac_wordscores()</code>, <code>ac_ca()</code>); agrupamento (<code>ac_cluster_documents()</code>); séries temporais (<code>ac_temporal()</code>)</td>
+</tr>
+<tr class="odd">
+<td>1:55 a 2:05</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>2:05 a 3:00</td>
+<td><strong>Bloco 3.</strong> LDA: escolha de K (<code>ac_lda_tune()</code>), estimação e interpretação (<code>ac_lda()</code>); limites dos tópicos; visão conceitual de <em>embeddings</em>; fechamento do bloco quantitativo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dia-4-llms-na-análise-de-conteúdo" class="level3">
+<h3 class="anchored" data-anchor-id="dia-4-llms-na-análise-de-conteúdo">Dia 4 · LLMs na análise de conteúdo</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tempo</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0:00 a 0:15</td>
+<td>Revisão e checagem das chaves de API</td>
+</tr>
+<tr class="even">
+<td>0:15 a 0:50</td>
+<td><strong>Bloco 1.</strong> Quando usar LLM; provedores e modelos (<code>ac_qual_list_models()</code>, <code>ac_qual_recommend_model()</code>); custo e tokens (<code>ac_estimate_tokens()</code>); dados sensíveis e LLM local</td>
+</tr>
+<tr class="odd">
+<td>0:50 a 1:00</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>1:00 a 1:55</td>
+<td><strong>Bloco 2.</strong> Codebook (<code>ac_qual_codebook()</code>, <code>ac_qual_save_codebook()</code>); <em>prompts</em> e saída estruturada</td>
+</tr>
+<tr class="odd">
+<td>1:55 a 2:05</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>2:05 a 3:00</td>
+<td><strong>Bloco 3.</strong> Classificação em lote com <code>ac_qual_code()</code>; consistência e erros; plano B com resultados pré-computados; início do mini-projeto</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dia-5-validação-reprodutibilidade-e-mini-projeto" class="level3">
+<h3 class="anchored" data-anchor-id="dia-5-validação-reprodutibilidade-e-mini-projeto">Dia 5 · Validação, reprodutibilidade e mini-projeto</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tempo</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0:00 a 0:15</td>
+<td>Revisão e dúvidas</td>
+</tr>
+<tr class="even">
+<td>0:15 a 0:50</td>
+<td><strong>Bloco 1.</strong> Amostragem e revisão humana (<code>ac_qual_sample()</code>, <code>ac_qual_export_for_review()</code>, <code>ac_qual_import_human()</code>)</td>
+</tr>
+<tr class="odd">
+<td>0:50 a 1:00</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>1:00 a 1:55</td>
+<td><strong>Bloco 2.</strong> Concordância e métricas (<code>ac_qual_irr()</code>, <code>ac_qual_reliability()</code>); paradoxo do kappa; dicionário × LLM × humano (<code>ac_dictionary_validate()</code>)</td>
+</tr>
+<tr class="odd">
+<td>1:55 a 2:05</td>
+<td>Pausa</td>
+</tr>
+<tr class="even">
+<td>2:05 a 3:00</td>
+<td><strong>Bloco 3.</strong> Relatório e exportação (<code>ac_qual_report()</code>, <code>ac_export()</code>); reprodutibilidade; apresentações curtas dos mini-projetos; encerramento e próximos passos</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="avaliação-e-frequência" class="level2">
+<h2 class="anchored" data-anchor-id="avaliação-e-frequência">7. Avaliação e frequência</h2>
+<p>Não há avaliação formal. Recomenda-se participar dos 5 encontros e entregar o mini-projeto como exercício de aprendizagem (não obrigatório). Quem solicitar declaração de participação deve ter presença em pelo menos 4 dos 5 encontros.</p>
+<hr>
+</section>
+<section id="bibliografia" class="level2">
+<h2 class="anchored" data-anchor-id="bibliografia">8. Bibliografia</h2>
+<section id="básica" class="level3">
+<h3 class="anchored" data-anchor-id="básica">Básica</h3>
+<p>GRIMMER, Justin; ROBERTS, Margaret E.; STEWART, Brandon M. <strong>Text as Data</strong>: a new framework for machine learning and the social sciences. Princeton: Princeton University Press, 2022.</p>
+<p>KRIPPENDORFF, Klaus. <strong>Content Analysis</strong>: an introduction to its methodology. 4. ed.&nbsp;Thousand Oaks: Sage, 2018.</p>
+<p>SAMPAIO, Rafael Cardoso; LYCARIÃO, Diógenes. <strong>Análise de conteúdo categorial</strong>: manual de aplicação. Brasília: Enap, 2021.</p>
+<p>GRIMMER, Justin; STEWART, Brandon M. Text as data: the promise and pitfalls of automatic content analysis methods for political texts. <strong>Political Analysis</strong>, v. 21, n.&nbsp;3, p.&nbsp;267-297, 2013.</p>
+</section>
+<section id="complementar-método-e-texto-como-dado" class="level3">
+<h3 class="anchored" data-anchor-id="complementar-método-e-texto-como-dado">Complementar: método e texto como dado</h3>
+<p>DENNY, Matthew J.; SPIRLING, Arthur. Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. <strong>Political Analysis</strong>, v. 26, n.&nbsp;2, p.&nbsp;168-189, 2018.</p>
+<p>WILKERSON, John; CASAS, Andreu. Large-scale computerized text analysis in political science: opportunities and challenges. <strong>Annual Review of Political Science</strong>, v. 20, p.&nbsp;529-544, 2017.</p>
+<p>GENTZKOW, Matthew; KELLY, Bryan; TADDY, Matt. Text as data. <strong>Journal of Economic Literature</strong>, v. 57, n.&nbsp;3, p.&nbsp;535-574, 2019.</p>
+<p>SALGANIK, Matthew J. <strong>Bit by Bit</strong>: social research in the digital age. Princeton: Princeton University Press, 2018.</p>
+<p>BARBERÁ, Pablo et al.&nbsp;Automated text classification of news articles: a practical guide. <strong>Political Analysis</strong>, v. 29, n.&nbsp;1, p.&nbsp;19-42, 2021.</p>
+<p>LAVER, Michael; BENOIT, Kenneth; GARRY, John. Extracting policy positions from political texts using words as data. <strong>American Political Science Review</strong>, v. 97, n.&nbsp;2, p.&nbsp;311-331, 2003.</p>
+<p>SLAPIN, Jonathan B.; PROKSCH, Sven-Oliver. A scaling model for estimating time-series party positions from texts. <strong>American Journal of Political Science</strong>, v. 52, n.&nbsp;3, p.&nbsp;705-722, 2008.</p>
+<p>HOPKINS, Daniel J.; KING, Gary. A method of automated nonparametric content analysis for social science. <strong>American Journal of Political Science</strong>, v. 54, n.&nbsp;1, p.&nbsp;229-247, 2010.</p>
+<p>ROBERTS, Margaret E. et al.&nbsp;Structural topic models for open-ended survey responses. <strong>American Journal of Political Science</strong>, v. 58, n.&nbsp;4, p.&nbsp;1064-1082, 2014.</p>
+<p>RODRIGUEZ, Pedro L.; SPIRLING, Arthur. Word embeddings: what works, what doesn’t, and how to tell the difference for applied research. <strong>Journal of Politics</strong>, v. 84, n.&nbsp;1, p.&nbsp;101-115, 2022.</p>
+</section>
+<section id="confiabilidade-e-validação" class="level3">
+<h3 class="anchored" data-anchor-id="confiabilidade-e-validação">Confiabilidade e validação</h3>
+<p>NEUENDORF, Kimberly A. <strong>The Content Analysis Guidebook</strong>. 2. ed.&nbsp;Thousand Oaks: Sage, 2017.</p>
+<p>BARDIN, Laurence. <strong>Análise de Conteúdo</strong>. São Paulo: Edições 70, 2011.</p>
+<p>COHEN, Jacob. A coefficient of agreement for nominal scales. <strong>Educational and Psychological Measurement</strong>, v. 20, n.&nbsp;1, p.&nbsp;37-46, 1960.</p>
+<p>LANDIS, J. Richard; KOCH, Gary G. The measurement of observer agreement for categorical data. <strong>Biometrics</strong>, v. 33, n.&nbsp;1, p.&nbsp;159-174, 1977.</p>
+<p>GWET, Kilem L. Computing inter-rater reliability and its variance in the presence of high agreement. <strong>British Journal of Mathematical and Statistical Psychology</strong>, v. 61, n.&nbsp;1, p.&nbsp;29-48, 2008.</p>
+<p>GWET, Kilem L. <strong>Handbook of Inter-Rater Reliability</strong>. 4. ed.&nbsp;Gaithersburg: Advanced Analytics, 2014.</p>
+<p>FEINSTEIN, Alvan R.; CICCHETTI, Domenic V. High agreement but low kappa: I. The problems of two paradoxes. <strong>Journal of Clinical Epidemiology</strong>, v. 43, n.&nbsp;6, p.&nbsp;543-549, 1990.</p>
+<p>CICCHETTI, Domenic V.; FEINSTEIN, Alvan R. High agreement but low kappa: II. Resolving the paradoxes. <strong>Journal of Clinical Epidemiology</strong>, v. 43, n.&nbsp;6, p.&nbsp;551-558, 1990.</p>
+<p>LOVEJOY, Jennette et al.&nbsp;Assessing the reporting of reliability in published content analyses: 1985-2010. <strong>Communication Methods and Measures</strong>, v. 8, n.&nbsp;3, p.&nbsp;207-221, 2014.</p>
+</section>
+<section id="produção-brasileira" class="level3">
+<h3 class="anchored" data-anchor-id="produção-brasileira">Produção brasileira</h3>
+<p>IZUMI, Mauricio; MOREIRA, Davi. O texto como dado: desafios e oportunidades para as ciências sociais. <strong>BIB</strong>, n.&nbsp;86, p.&nbsp;138-174, 2018.</p>
+<p>SAMPAIO, Rafael Cardoso et al.&nbsp;Muita Bardin, pouca qualidade: uma avaliação sobre as análises de conteúdo qualitativas no Brasil. <strong>Revista Pesquisa Qualitativa</strong>, v. 10, n.&nbsp;25, p.&nbsp;464-494, 2022.</p>
+</section>
+<section id="llms-e-software" class="level3">
+<h3 class="anchored" data-anchor-id="llms-e-software">LLMs e software</h3>
+<p>GILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT outperforms crowd workers for text-annotation tasks. <strong>PNAS</strong>, v. 120, n.&nbsp;30, 2023.</p>
+<p>WANG, Xuezhi et al.&nbsp;Self-consistency improves chain of thought reasoning in language models. <strong>EMNLP</strong>, 2023.</p>
+<p>BENOIT, Kenneth et al.&nbsp;quanteda: an R package for the quantitative analysis of textual data. <strong>Journal of Open Source Software</strong>, v. 3, n.&nbsp;30, 2018.</p>
+<p>HENRIQUE, Anderson. <strong>acR</strong>: análise de conteúdo em R. Pacote R. Disponível em: https://ahenriquecp.com/acR/.</p>
+<blockquote class="blockquote">
+<p>Itens acima: da lista do SICSS-Brazil 2026. A versão do acR deve ser atualizada na citação (o pacote está na 0.6.0; a citação do SICSS menciona 0.3.2).</p>
+</blockquote>
+</section>
+<section id="sugestões-adicionais" class="level3">
+<h3 class="anchored" data-anchor-id="sugestões-adicionais">Sugestões adicionais</h3>
+<p>WELBERS, Kasper; VAN ATTEVELDT, Wouter; BENOIT, Kenneth. Text analysis in R. <strong>Communication Methods and Measures</strong>, v. 11, n.&nbsp;4, p.&nbsp;245-265, 2017. DOI: 10.1080/19312458.2017.1387238.</p>
+<p>SILGE, Julia; ROBINSON, David. <strong>Text Mining with R</strong>: a tidy approach. Sebastopol: O’Reilly, 2017.</p>
+<p>TÖRNBERG, Petter. ChatGPT-4 outperforms experts and crowd workers in annotating political Twitter messages with zero-shot learning. <strong>arXiv</strong>, 2304.06588, 2023.</p>
+<p>ZIEMS, Caleb et al.&nbsp;Can large language models transform computational social science? <strong>Computational Linguistics</strong>, v. 50, n.&nbsp;1, p.&nbsp;237-291, 2024. DOI: 10.1162/coli_a_00502.</p>
+</section>
+</section>
+</section>
+
+
+
+</main> <!-- /main -->
+<script>
+(function () {
+  var d = document, de = d.documentElement; de.classList.add('js');
+  // abas fixas logo abaixo da barra de navegação
+  var hdr = d.querySelector('#quarto-header'), abas = d.querySelector('.pv-abas');
+  // o menu do Quarto some ao rolar para baixo (headroom): a barra de abas gruda no topo (top: 0)
+  // âncoras da própria página (o Quarto pode reescrevê-las como endereços absolutos: usar .hash)
+  function mesmaPagina(a) {
+    var norm = function (p) { return p.replace(/index\.html$/, ''); };
+    return a.hash && a.origin === location.origin && norm(a.pathname) === norm(location.pathname);
+  }
+  var links = [].slice.call(d.querySelectorAll('.pv-abas a')).filter(mesmaPagina);
+  var alvos = links.map(function (a) { return d.querySelector(a.hash); });
+  // scroll-spy: destaca a aba da seção visível
+  function spy() {
+    var y = (abas ? abas.offsetHeight : 0) + 40, atual = 0;
+    alvos.forEach(function (s, i) { if (s && s.getBoundingClientRect().top - y <= 0) atual = i; });
+    links.forEach(function (a, i) { a.classList.toggle('atual', i === atual); });
+  }
+  window.addEventListener('scroll', spy, { passive: true }); spy();
+  // rolagem suave para as âncoras, descontando a barra de abas
+  [].slice.call(d.querySelectorAll('a[href*="#"]')).filter(mesmaPagina).forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var s = d.querySelector(a.hash); if (!s) return; e.preventDefault();
+      var top = s.getBoundingClientRect().top + window.scrollY - (abas ? abas.offsetHeight : 0);
+      var red = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: top, behavior: red ? 'auto' : 'smooth' });
+      if (history.replaceState) history.replaceState(null, '', a.hash);
+    });
+  });
+  // entrada suave dos blocos
+  var rev = [].slice.call(d.querySelectorAll('.pv-revela'));
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('visivel'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    rev.forEach(function (r) { io.observe(r); });
+  } else { rev.forEach(function (r) { r.classList.add('visivel'); }); }
+  // botões em pílula alternam o palco em destaque
+  var pil = [].slice.call(d.querySelectorAll('.pv-pilulas button')), pal = [].slice.call(d.querySelectorAll('.pv-palcos .palco'));
+  pil.forEach(function (b) {
+    b.addEventListener('click', function () {
+      pil.forEach(function (x) { x.classList.toggle('ativa', x === b); });
+      pal.forEach(function (p) { p.classList.toggle('foco', p.getAttribute('data-p') === b.getAttribute('data-palco')); });
+    });
+  });
+})();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ahenriquecp\.com\/pvalooza");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Anderson Henrique · CEM/USP · Evento acadêmico independente, sem relação com o Lollapalooza</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Feito com <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
