@@ -8,7 +8,7 @@
 
 | Item | Descrição |
 |---|---|
-| **Evento** | Festival Pvalooza, Edição 01: Análise de Conteúdo com LLM |
+| **Evento** | Festival Pvalooza (Edição 1): Análise de Conteúdo com LLM |
 | **Título do curso** | Análise de Conteúdo Automatizado: texto, R e LLMs |
 | **Coordenação e docência** | Anderson Henrique (CEM/USP) |
 | **Apoio** | 2 monitores (a definir) |

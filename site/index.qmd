@@ -1,5 +1,5 @@
 ---
-pagetitle: "Festival Pvalooza, Edição 01: Análise de Conteúdo com LLM"
+pagetitle: "Festival Pvalooza (Edição 1): Análise de Conteúdo com LLM"
 toc: false
 page-layout: full
 ---
