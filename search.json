@@ -1,59 +1,10 @@
 [
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  FAQ\n  Perguntas frequentes\n\n1 · GITHUB2 · R E PACOTES3 · CHAVES DE APIFAQ\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nFAQ\nAs aulas serão gravadas? Não. Os slides e scripts ficam no repositório.\nHaverá certificado? Não nesta edição. Pode haver declaração de participação para quem tiver presença em ao menos 4 dos 5 encontros.\nPosso trocar de turno? Só em caso de necessidade, e conforme as vagas. Avise por uma Discussion.\nPerdi um dia. E agora? Baixe o repositório, rode os scripts do dia e use as Discussions. Os monitores ajudam.\nPreciso pagar por API? Não. Usamos planos gratuitos (Gemini ou Groq) e há resultados pré-computados como plano B.\nPosso usar meu próprio corpus? Sim, no mini-projeto dos dias 4 e 5. Evite dados pessoais e sensíveis na API.\nMeu computador é antigo. Para os exercícios do curso, 8 GB de RAM bastam. Não usamos LLM local.\nMinha instituição bloqueia o GitHub. Use outra rede ou abra uma Issue. Se for caso de instalação do acR, o professor indicará um arquivo local."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "PVALOOZA",
     "section": "",
     "text": "ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R ✺ 4 A 8 DE JANEIRO DE 2027 ✺ 160 VAGAS ✺ GRATUITO ✺ INSCRIÇÕES ENCERRADAS ✺ ONLINE ✺ \n\n\n  \n\n\n\n\n\n  \n    FESTIVAL DE MÉTODOS\n    PVALOOZA\n    Onde os dados sobem ao palco\n    \n      EDIÇÃO 1ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R\n      Nº1\n    \n    \n      4 a 8 de janeiro de 2027\n      15 horas · online, pelo Google Meet\n      160 vagas · 80 por turno\n    \n    INSCRIÇÕES ENCERRADAS\n    VER O LINE-UP\n  \n  \n    \n    BAIXAR O CARTAZ\n  \n  \n    EDIÇÃOVITÓRIA DA REELEIÇÃODO LULA2026 ★\n  \n  p &lt; 0,05\n\n\n\n  LINE-UP\n  PALCOS\n  SORTEIO\n  CALENDÁRIO\n  PREPARAÇÃO\n\n\n\n  \n    LINE-UP\n    Cinco dias, cinco atrações. Cada encontro tem 3 blocos e 2 pausas de 10 minutos.\n    \n      LINE-UP\n      SEG · 4/1CORPUSimportação · xlsx, docx, pdf · discursos da Câmara\n      TER · 5/1TEXTO LIMPOtokens · stopwords · TF-IDF · KWIC · dicionários\n      QUA · 6/1LDAkeyness · coocorrência · Wordscores · tópicos\n      QUI · 7/1LLMcodebook · prompts · classificação · custo · riscos\n      SEX · 8/1VALIDAÇÃOkappa · Krippendorff · Gwet · relatório · mini-projeto\n    \n    \n      PALCOSManhã ou noite, 80 vagas em cada.ESCOLHA SEU PALCO →\n      SORTEIOCotas, paridade e regras claras.VER AS REGRAS →\n      PROGRAMACada bloco, cada função do acR.LER O PROGRAMA →\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    PALCOS\n    O conteúdo é o mesmo nos dois turnos. Horário de Brasília, pelo Google Meet.\n    \n      PALCO MANHÃ\n      PALCO NOITE\n    \n    \n      PALCOMANHÃ9h às 12h80 vagas · início às 9h00 · três blocos e duas pausas\n      PALCONOITE18h30 às 21h3080 vagas · início às 18h30 · três blocos e duas pausas\n    \n    \n      Quando4 a 8 JANDe 2027 (datas a confirmar em dezembro de 2026). Cinco encontros de 3 horas.\n      IngressoGRATUITOSem custo. Aulas ao vivo, sem gravação.\n      Vagas160 · SORTEIOEntre inscritos elegíveis, 80 por turno.\n      Para quemR BÁSICO+Graduação, pós e profissionais, com um projeto que envolva texto.\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    SORTEIO E REGRAS\n    As inscrições estão encerradas. A seleção é por sorteio entre inscritos elegíveis.\n    COMO FUNCIONA160 VAGASO sorteio é feito entre quem preenche os requisitos do formulário, com cotas por região, nível acadêmico e cor ou raça, e paridade de gênero. O resultado é enviado por e-mail; quem for sorteado(a) confirma interesse, e a vaga de quem não confirmar passa à lista de espera.\n    PRÉ-REQUISITOSR BÁSICO+R básico ou intermediário e um projeto (em andamento ou previsto) que envolva texto. É preciso computador com permissão para instalar R e RStudio, conta Google e disponibilidade nos 5 dias, no turno escolhido.\n    CERTIFICADOSEM CERTIFICADONão haverá certificado nesta edição. O formulário pergunta se há interesse em uma declaração de participação.\n    AULAS E APOIOAO VIVOAs aulas não serão gravadas. As dúvidas fora do Meet são respondidas pelas Discussions e Issues do repositório no GitHub (conta gratuita).\n    DADOS E PRIVACIDADELGPDOs dados, inclusive os de cor ou raça e de gênero (sensíveis), são usados apenas para as cotas e a paridade do sorteio e para organizar o curso. Os dados são apagados ao fim do curso, exceto os agregados e anônimos.\n    INSCRIÇÕES ENCERRADAS EM 15/11\n    Obrigado a quem se inscreveu! O resultado do sorteio é enviado por e-mail.\n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    CALENDÁRIO\n    \n      15 de novembro de 2026 inscrições encerradas\n      20 de novembro resultado do sorteio, por e-mail\n      Até 15 de dezembro sorteados confirmam interesse\n      Até 27 de dezembro lista final\n      4 a 8 de janeiro de 2027 o festival\n    \n  \n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\n\n  \n    PREPARAÇÃO\n    As instruções de preparação serão enviadas por e-mail, mais perto do curso. Quem quiser adiantar pode ver os tutoriais.\n    \n      1 · CONTA NO GITHUB\n      2 · R, RSTUDIO E PACOTES\n      3 · CHAVES DE API\n    \n    \n      \n      Docente: Anderson Henrique (CEM/USP)Autor do pacote acR. Sobre mim →\n    \n    \n      Evento acadêmico independente. \"Pvalooza\" é uma brincadeira com o p-valor e com a linguagem dos festivais de música. Não há relação com o Lollapalooza nem com seus organizadores, e nenhuma marca, logotipo ou imagem deles é usada aqui. Ilustrações e identidade visual originais."
-  },
-  {
-    "objectID": "tutorial_github.html",
-    "href": "tutorial_github.html",
-    "title": "CONTA NO GITHUB",
-    "section": "",
-    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 1"
-  },
-  {
-    "objectID": "tutorial_github.html#criar-a-conta-5-minutos",
-    "href": "tutorial_github.html#criar-a-conta-5-minutos",
-    "title": "CONTA NO GITHUB",
-    "section": "1. Criar a conta (5 minutos)",
-    "text": "1. Criar a conta (5 minutos)\n\nAcesse https://github.com/signup.\nInforme e-mail, senha e um nome de usuário. Prefira algo que você não se importe em tornar público.\nConfirme o e-mail que o GitHub enviar.\nEnvie o seu usuário no formulário (ou ao docente), para receber o convite do repositório."
-  },
-  {
-    "objectID": "tutorial_github.html#aceitar-o-convite",
-    "href": "tutorial_github.html#aceitar-o-convite",
-    "title": "CONTA NO GITHUB",
-    "section": "2. Aceitar o convite",
-    "text": "2. Aceitar o convite\nQuando você for sorteado(a), receberá um e-mail do GitHub com o convite para acr-curso-2027. Clique em View invitation e depois em Accept invitation. O convite expira em 7 dias."
-  },
-  {
-    "objectID": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
-    "href": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
-    "title": "CONTA NO GITHUB",
-    "section": "3. Baixar os materiais (sem usar git)",
-    "text": "3. Baixar os materiais (sem usar git)\n\nAbra o repositório e clique no botão verde Code.\nClique em Download ZIP e descompacte a pasta.\nAbra o arquivo acr-curso-2027.Rproj no RStudio.\n\nA cada dia, baixe o ZIP de novo (ou apenas a pasta do dia), pois liberamos os slides e scripts de cada dia no dia anterior."
-  },
-  {
-    "objectID": "tutorial_github.html#tirar-dúvidas",
-    "href": "tutorial_github.html#tirar-dúvidas",
-    "title": "CONTA NO GITHUB",
-    "section": "4. Tirar dúvidas",
-    "text": "4. Tirar dúvidas\n\nDiscussions (aba Discussions): dúvidas conceituais, de método e de organização. Procure antes se alguém já perguntou.\nIssues (aba Issues, botão New issue, modelo “Dúvida técnica”): erros de código, instalação e API.\n\n\nComo escrever uma boa dúvida técnica\n\nDiga em qual script e em qual linha o erro aparece.\nCole a mensagem de erro completa, entre três crases (```) antes e depois.\nCole o resultado de sessionInfo().\nNunca cole sua chave de API. Se colar sem querer, apague a mensagem e crie outra chave."
-  },
-  {
-    "objectID": "tutorial_github.html#regras-de-convivência",
-    "href": "tutorial_github.html#regras-de-convivência",
-    "title": "CONTA NO GITHUB",
-    "section": "5. Regras de convivência",
-    "text": "5. Regras de convivência\n\nRespeito ao falar com colegas e monitores.\nNão publique dados pessoais ou sensíveis de ninguém, nem seus.\nOs monitores respondem durante os horários do curso e, depois, em até um dia útil."
   },
   {
     "objectID": "programa.html",
@@ -119,55 +70,6 @@
     "text": "8. Bibliografia\n\nBásica\nGRIMMER, Justin; ROBERTS, Margaret E.; STEWART, Brandon M. Text as Data: a new framework for machine learning and the social sciences. Princeton: Princeton University Press, 2022.\nKRIPPENDORFF, Klaus. Content Analysis: an introduction to its methodology. 4. ed. Thousand Oaks: Sage, 2018.\nSAMPAIO, Rafael Cardoso; LYCARIÃO, Diógenes. Análise de conteúdo categorial: manual de aplicação. Brasília: Enap, 2021.\nGRIMMER, Justin; STEWART, Brandon M. Text as data: the promise and pitfalls of automatic content analysis methods for political texts. Political Analysis, v. 21, n. 3, p. 267-297, 2013.\n\n\nComplementar: método e texto como dado\nDENNY, Matthew J.; SPIRLING, Arthur. Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, v. 26, n. 2, p. 168-189, 2018.\nWILKERSON, John; CASAS, Andreu. Large-scale computerized text analysis in political science: opportunities and challenges. Annual Review of Political Science, v. 20, p. 529-544, 2017.\nGENTZKOW, Matthew; KELLY, Bryan; TADDY, Matt. Text as data. Journal of Economic Literature, v. 57, n. 3, p. 535-574, 2019.\nSALGANIK, Matthew J. Bit by Bit: social research in the digital age. Princeton: Princeton University Press, 2018.\nBARBERÁ, Pablo et al. Automated text classification of news articles: a practical guide. Political Analysis, v. 29, n. 1, p. 19-42, 2021.\nLAVER, Michael; BENOIT, Kenneth; GARRY, John. Extracting policy positions from political texts using words as data. American Political Science Review, v. 97, n. 2, p. 311-331, 2003.\nSLAPIN, Jonathan B.; PROKSCH, Sven-Oliver. A scaling model for estimating time-series party positions from texts. American Journal of Political Science, v. 52, n. 3, p. 705-722, 2008.\nHOPKINS, Daniel J.; KING, Gary. A method of automated nonparametric content analysis for social science. American Journal of Political Science, v. 54, n. 1, p. 229-247, 2010.\nROBERTS, Margaret E. et al. Structural topic models for open-ended survey responses. American Journal of Political Science, v. 58, n. 4, p. 1064-1082, 2014.\nRODRIGUEZ, Pedro L.; SPIRLING, Arthur. Word embeddings: what works, what doesn’t, and how to tell the difference for applied research. Journal of Politics, v. 84, n. 1, p. 101-115, 2022.\n\n\nConfiabilidade e validação\nNEUENDORF, Kimberly A. The Content Analysis Guidebook. 2. ed. Thousand Oaks: Sage, 2017.\nBARDIN, Laurence. Análise de Conteúdo. São Paulo: Edições 70, 2011.\nCOHEN, Jacob. A coefficient of agreement for nominal scales. Educational and Psychological Measurement, v. 20, n. 1, p. 37-46, 1960.\nLANDIS, J. Richard; KOCH, Gary G. The measurement of observer agreement for categorical data. Biometrics, v. 33, n. 1, p. 159-174, 1977.\nGWET, Kilem L. Computing inter-rater reliability and its variance in the presence of high agreement. British Journal of Mathematical and Statistical Psychology, v. 61, n. 1, p. 29-48, 2008.\nGWET, Kilem L. Handbook of Inter-Rater Reliability. 4. ed. Gaithersburg: Advanced Analytics, 2014.\nFEINSTEIN, Alvan R.; CICCHETTI, Domenic V. High agreement but low kappa: I. The problems of two paradoxes. Journal of Clinical Epidemiology, v. 43, n. 6, p. 543-549, 1990.\nCICCHETTI, Domenic V.; FEINSTEIN, Alvan R. High agreement but low kappa: II. Resolving the paradoxes. Journal of Clinical Epidemiology, v. 43, n. 6, p. 551-558, 1990.\nLOVEJOY, Jennette et al. Assessing the reporting of reliability in published content analyses: 1985-2010. Communication Methods and Measures, v. 8, n. 3, p. 207-221, 2014.\n\n\nProdução brasileira\nIZUMI, Mauricio; MOREIRA, Davi. O texto como dado: desafios e oportunidades para as ciências sociais. BIB, n. 86, p. 138-174, 2018.\nSAMPAIO, Rafael Cardoso et al. Muita Bardin, pouca qualidade: uma avaliação sobre as análises de conteúdo qualitativas no Brasil. Revista Pesquisa Qualitativa, v. 10, n. 25, p. 464-494, 2022.\n\n\nLLMs e software\nGILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT outperforms crowd workers for text-annotation tasks. PNAS, v. 120, n. 30, 2023.\nWANG, Xuezhi et al. Self-consistency improves chain of thought reasoning in language models. EMNLP, 2023.\nBENOIT, Kenneth et al. quanteda: an R package for the quantitative analysis of textual data. Journal of Open Source Software, v. 3, n. 30, 2018.\nHENRIQUE, Anderson. acR: análise de conteúdo em R. Pacote R. Disponível em: https://ahenriquecp.com/acR/.\n\nItens acima: da lista do SICSS-Brazil 2026. A versão do acR deve ser atualizada na citação (o pacote está na 0.6.0; a citação do SICSS menciona 0.3.2).\n\n\n\nSugestões adicionais\nWELBERS, Kasper; VAN ATTEVELDT, Wouter; BENOIT, Kenneth. Text analysis in R. Communication Methods and Measures, v. 11, n. 4, p. 245-265, 2017. DOI: 10.1080/19312458.2017.1387238.\nSILGE, Julia; ROBINSON, David. Text Mining with R: a tidy approach. Sebastopol: O’Reilly, 2017.\nTÖRNBERG, Petter. ChatGPT-4 outperforms experts and crowd workers in annotating political Twitter messages with zero-shot learning. arXiv, 2304.06588, 2023.\nZIEMS, Caleb et al. Can large language models transform computational social science? Computational Linguistics, v. 50, n. 1, p. 237-291, 2024. DOI: 10.1162/coli_a_00502."
   },
   {
-    "objectID": "dias.html",
-    "href": "dias.html",
-    "title": "DIA A DIA",
-    "section": "",
-    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  DIA A DIA\n  Cinco encontros · 3 blocos e 2 pausas de 10 minutos · mesmo conteúdo nos dois turnos\n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nOs slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.\n4JAN · SEGCORPUSDa análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares da Câmara.VER OS HORÁRIOS →5JAN · TERTEXTO LIMPOTokenização, stopwords, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.VER OS HORÁRIOS →6JAN · QUALDAKeyness, coocorrência, Wordscores, análise de correspondência, agrupamento e tópicos com LDA.VER OS HORÁRIOS →7JAN · QUILLMCodebook, prompts, chaves de API, classificação em lote, custo e riscos.VER OS HORÁRIOS →8JAN · SEXVALIDAÇÃOAmostragem, kappa, Krippendorff, Gwet, relatório, reprodutibilidade e mini-projeto.VER OS HORÁRIOS →\nManhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Sem gravação."
-  },
-  {
-    "objectID": "tutorial_instalacao.html",
-    "href": "tutorial_instalacao.html",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "",
-    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 2"
-  },
-  {
-    "objectID": "tutorial_instalacao.html#r-e-rstudio",
-    "href": "tutorial_instalacao.html#r-e-rstudio",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "1. R e RStudio",
-    "text": "1. R e RStudio\n\nInstale o R (versão 4.1 ou superior; recomendamos a mais recente): https://cran.r-project.org\nInstale o RStudio Desktop: https://posit.co/download/rstudio-desktop\nWindows: instale também o Rtools (a versão que corresponde ao seu R) em https://cran.r-project.org/bin/windows/Rtools. macOS: rode xcode-select --install no Terminal."
-  },
-  {
-    "objectID": "tutorial_instalacao.html#abrir-o-projeto",
-    "href": "tutorial_instalacao.html#abrir-o-projeto",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "2. Abrir o projeto",
-    "text": "2. Abrir o projeto\n\nImportante: guarde a pasta do projeto em um caminho sem acentos e, de preferência, sem espaços, por exemplo C:/cursos/acr-curso-2027 (Windows) ou ~/cursos/acr-curso-2027 (macOS). Caminhos como C:/Users/João/Área de Trabalho/... quebram a leitura de arquivos em alguns computadores.\n\n\nBaixe o repositório (veja o tutorial “Conta no GitHub”, no menu Preparação).\nAbra acr-curso-2027.Rproj no RStudio.\nConfira que o diretório de trabalho é a raiz do projeto: o comando getwd() deve terminar em acr-curso-2027."
-  },
-  {
-    "objectID": "tutorial_instalacao.html#instalar-os-pacotes",
-    "href": "tutorial_instalacao.html#instalar-os-pacotes",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "3. Instalar os pacotes",
-    "text": "3. Instalar os pacotes\nNo console do RStudio, rode:\nsource(\"scripts/00_setup.R\")\nO script confere o que já está instalado, instala o que falta (incluindo o acR direto do GitHub) e mostra um quadro final com OK ou FALTA para cada pacote. Se algum aparecer como FALTA, abra uma Issue com a mensagem de erro."
-  },
-  {
-    "objectID": "tutorial_instalacao.html#problemas-comuns",
-    "href": "tutorial_instalacao.html#problemas-comuns",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "4. Problemas comuns",
-    "text": "4. Problemas comuns\n\n\n\n\n\n\n\nSintoma\nSolução\n\n\n\n\npackage ... is not available\nAtualize o R para a versão mais recente\n\n\nErro de compilação no Windows\nInstale o Rtools\n\n\nAcentos quebrados nos gráficos\nEm Tools &gt; Global Options &gt; Code &gt; Saving, defina a codificação como UTF-8\n\n\ntopicmodels não instala (macOS)\nInstale o gfortran pelo site do CRAN para macOS e tente de novo\n\n\nFalha ao ler PDF escaneado\nO OCR (tesseract) é opcional e usado só em um exemplo do dia 1\n\n\nRede da instituição bloqueia o GitHub\nUse outra rede ou abra uma Issue: indicamos uma instalação alternativa do acR"
-  },
-  {
-    "objectID": "tutorial_instalacao.html#se-algo-não-funcionar",
-    "href": "tutorial_instalacao.html#se-algo-não-funcionar",
-    "title": "R, RSTUDIO E PACOTES",
-    "section": "5. Se algo não funcionar",
-    "text": "5. Se algo não funcionar\nAs instruções finais de preparação serão enviadas por e-mail, mais perto do curso. Se quiser adiantar e algo falhar, rode source(\"scripts/00_checklist_ambiente.R\"), copie o quadro que aparece e abra uma Issue (modelo “Dúvida técnica”) ou uma Discussion no repositório. Respondemos antes do curso."
-  },
-  {
     "objectID": "sobre.html",
     "href": "sobre.html",
     "title": "Anderson Henrique",
@@ -187,6 +89,55 @@
     "title": "Anderson Henrique",
     "section": "Onde me encontrar",
     "text": "Onde me encontrar\n\n  Site pessoal\n  Currículo Lattes\n  CV (PDF, português)\n  CV (PDF, inglês)\n  X (@ande_henri)\n  GitHub\n  ORCID\n  Google Scholar\n  OSF\n  Pacote acR\n\nDúvidas sobre o curso: abra uma Issue no repositório do site."
+  },
+  {
+    "objectID": "dias.html",
+    "href": "dias.html",
+    "title": "DIA A DIA",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  DIA A DIA\n  Cinco encontros · 3 blocos e 2 pausas de 10 minutos · mesmo conteúdo nos dois turnos\n\n\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nOs slides e scripts de cada dia ficam no repositório do curso e são liberados no dia anterior.\n4JAN · SEGCORPUSDa análise de conteúdo clássica à automatizada. Importação de xlsx, docx e pdf. Discursos parlamentares da Câmara.VER OS HORÁRIOS →5JAN · TERTEXTO LIMPOTokenização, stopwords, frequências, TF-IDF, KWIC, colocações, legibilidade e dicionários.VER OS HORÁRIOS →6JAN · QUALDAKeyness, coocorrência, Wordscores, análise de correspondência, agrupamento e tópicos com LDA.VER OS HORÁRIOS →7JAN · QUILLMCodebook, prompts, chaves de API, classificação em lote, custo e riscos.VER OS HORÁRIOS →8JAN · SEXVALIDAÇÃOAmostragem, kappa, Krippendorff, Gwet, relatório, reprodutibilidade e mini-projeto.VER OS HORÁRIOS →\nManhã: 9h às 12h · Noite: 18h30 às 21h30 (horário de Brasília). Sem gravação."
+  },
+  {
+    "objectID": "tutorial_github.html",
+    "href": "tutorial_github.html",
+    "title": "CONTA NO GITHUB",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 1"
+  },
+  {
+    "objectID": "tutorial_github.html#criar-a-conta-5-minutos",
+    "href": "tutorial_github.html#criar-a-conta-5-minutos",
+    "title": "CONTA NO GITHUB",
+    "section": "1. Criar a conta (5 minutos)",
+    "text": "1. Criar a conta (5 minutos)\n\nAcesse https://github.com/signup.\nInforme e-mail, senha e um nome de usuário. Prefira algo que você não se importe em tornar público.\nConfirme o e-mail que o GitHub enviar.\nEnvie o seu usuário no formulário (ou ao docente), para receber o convite do repositório."
+  },
+  {
+    "objectID": "tutorial_github.html#aceitar-o-convite",
+    "href": "tutorial_github.html#aceitar-o-convite",
+    "title": "CONTA NO GITHUB",
+    "section": "2. Aceitar o convite",
+    "text": "2. Aceitar o convite\nQuando você for sorteado(a), receberá um e-mail do GitHub com o convite para acr-curso-2027. Clique em View invitation e depois em Accept invitation. O convite expira em 7 dias."
+  },
+  {
+    "objectID": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
+    "href": "tutorial_github.html#baixar-os-materiais-sem-usar-git",
+    "title": "CONTA NO GITHUB",
+    "section": "3. Baixar os materiais (sem usar git)",
+    "text": "3. Baixar os materiais (sem usar git)\n\nAbra o repositório e clique no botão verde Code.\nClique em Download ZIP e descompacte a pasta.\nAbra o arquivo acr-curso-2027.Rproj no RStudio.\n\nA cada dia, baixe o ZIP de novo (ou apenas a pasta do dia), pois liberamos os slides e scripts de cada dia no dia anterior."
+  },
+  {
+    "objectID": "tutorial_github.html#tirar-dúvidas",
+    "href": "tutorial_github.html#tirar-dúvidas",
+    "title": "CONTA NO GITHUB",
+    "section": "4. Tirar dúvidas",
+    "text": "4. Tirar dúvidas\n\nDiscussions (aba Discussions): dúvidas conceituais, de método e de organização. Procure antes se alguém já perguntou.\nIssues (aba Issues, botão New issue, modelo “Dúvida técnica”): erros de código, instalação e API.\n\n\nComo escrever uma boa dúvida técnica\n\nDiga em qual script e em qual linha o erro aparece.\nCole a mensagem de erro completa, entre três crases (```) antes e depois.\nCole o resultado de sessionInfo().\nNunca cole sua chave de API. Se colar sem querer, apague a mensagem e crie outra chave."
+  },
+  {
+    "objectID": "tutorial_github.html#regras-de-convivência",
+    "href": "tutorial_github.html#regras-de-convivência",
+    "title": "CONTA NO GITHUB",
+    "section": "5. Regras de convivência",
+    "text": "5. Regras de convivência\n\nRespeito ao falar com colegas e monitores.\nNão publique dados pessoais ou sensíveis de ninguém, nem seus.\nOs monitores respondem durante os horários do curso e, depois, em até um dia útil."
   },
   {
     "objectID": "tutorial_api_gemini_groq.html",
@@ -236,5 +187,54 @@
     "title": "CHAVES DE API",
     "section": "Problemas comuns",
     "text": "Problemas comuns\n\n\n\n\n\n\n\nMensagem\nO que fazer\n\n\n\n\n401 ou API key not valid\nA chave foi copiada errada ou o R não foi reiniciado\n\n\n429 ou quota exceeded\nLimite gratuito atingido. Espere alguns minutos, troque de provedor ou use o plano B\n\n\nSem chave no teste\nO .Renviron não foi salvo ou o nome da variável está errado\n\n\nFalha só na rede da instituição\nTeste em outra rede (por exemplo, o celular como roteador)"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  FAQ\n  Perguntas frequentes\n\n1 · GITHUB2 · R E PACOTES3 · CHAVES DE APIFAQ\n★ p &lt; 0,05 ★★ PVALOOZA ★★ p &lt; 0,05 ★\n\nFAQ\nAs aulas serão gravadas? Não. Os slides e scripts ficam no repositório.\nHaverá certificado? Não nesta edição. Pode haver declaração de participação para quem tiver presença em ao menos 4 dos 5 encontros.\nPosso trocar de turno? Só em caso de necessidade, e conforme as vagas. Avise por uma Discussion.\nPerdi um dia. E agora? Baixe o repositório, rode os scripts do dia e use as Discussions. Os monitores ajudam.\nPreciso pagar por API? Não. Usamos planos gratuitos (Gemini ou Groq) e há resultados pré-computados como plano B.\nPosso usar meu próprio corpus? Sim, no mini-projeto dos dias 4 e 5. Evite dados pessoais e sensíveis na API.\nMeu computador é antigo. Para os exercícios do curso, 8 GB de RAM bastam. Não usamos LLM local.\nMinha instituição bloqueia o GitHub. Use outra rede ou abra uma Issue. Se for caso de instalação do acR, o professor indicará um arquivo local."
+  },
+  {
+    "objectID": "tutorial_instalacao.html",
+    "href": "tutorial_instalacao.html",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "",
+    "text": "FESTIVAL DE MÉTODOS PVALOOZA\n  \n  Preparação · passo 2"
+  },
+  {
+    "objectID": "tutorial_instalacao.html#r-e-rstudio",
+    "href": "tutorial_instalacao.html#r-e-rstudio",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "1. R e RStudio",
+    "text": "1. R e RStudio\n\nInstale o R (versão 4.1 ou superior; recomendamos a mais recente): https://cran.r-project.org\nInstale o RStudio Desktop: https://posit.co/download/rstudio-desktop\nWindows: instale também o Rtools (a versão que corresponde ao seu R) em https://cran.r-project.org/bin/windows/Rtools. macOS: rode xcode-select --install no Terminal."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#abrir-o-projeto",
+    "href": "tutorial_instalacao.html#abrir-o-projeto",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "2. Abrir o projeto",
+    "text": "2. Abrir o projeto\n\nImportante: guarde a pasta do projeto em um caminho sem acentos e, de preferência, sem espaços, por exemplo C:/cursos/acr-curso-2027 (Windows) ou ~/cursos/acr-curso-2027 (macOS). Caminhos como C:/Users/João/Área de Trabalho/... quebram a leitura de arquivos em alguns computadores.\n\n\nBaixe o repositório (veja o tutorial “Conta no GitHub”, no menu Preparação).\nAbra acr-curso-2027.Rproj no RStudio.\nConfira que o diretório de trabalho é a raiz do projeto: o comando getwd() deve terminar em acr-curso-2027."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#instalar-os-pacotes",
+    "href": "tutorial_instalacao.html#instalar-os-pacotes",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "3. Instalar os pacotes",
+    "text": "3. Instalar os pacotes\nNo console do RStudio, rode:\nsource(\"scripts/00_setup.R\")\nO script confere o que já está instalado, instala o que falta (incluindo o acR direto do GitHub) e mostra um quadro final com OK ou FALTA para cada pacote. Se algum aparecer como FALTA, abra uma Issue com a mensagem de erro."
+  },
+  {
+    "objectID": "tutorial_instalacao.html#problemas-comuns",
+    "href": "tutorial_instalacao.html#problemas-comuns",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "4. Problemas comuns",
+    "text": "4. Problemas comuns\n\n\n\n\n\n\n\nSintoma\nSolução\n\n\n\n\npackage ... is not available\nAtualize o R para a versão mais recente\n\n\nErro de compilação no Windows\nInstale o Rtools\n\n\nAcentos quebrados nos gráficos\nEm Tools &gt; Global Options &gt; Code &gt; Saving, defina a codificação como UTF-8\n\n\ntopicmodels não instala (macOS)\nInstale o gfortran pelo site do CRAN para macOS e tente de novo\n\n\nFalha ao ler PDF escaneado\nO OCR (tesseract) é opcional e usado só em um exemplo do dia 1\n\n\nRede da instituição bloqueia o GitHub\nUse outra rede ou abra uma Issue: indicamos uma instalação alternativa do acR"
+  },
+  {
+    "objectID": "tutorial_instalacao.html#se-algo-não-funcionar",
+    "href": "tutorial_instalacao.html#se-algo-não-funcionar",
+    "title": "R, RSTUDIO E PACOTES",
+    "section": "5. Se algo não funcionar",
+    "text": "5. Se algo não funcionar\nAs instruções finais de preparação serão enviadas por e-mail, mais perto do curso. Se quiser adiantar e algo falhar, rode source(\"scripts/00_checklist_ambiente.R\"), copie o quadro que aparece e abra uma Issue (modelo “Dúvida técnica”) ou uma Discussion no repositório. Respondemos antes do curso."
   }
 ]

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ahenriquecp.com/pvalooza/faq.html</loc>
-    <lastmod>2026-11-23T15:11:58.205Z</lastmod>
-  </url>
-  <url>
     <loc>https://ahenriquecp.com/pvalooza/index.html</loc>
-    <lastmod>2026-11-23T15:11:58.206Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ahenriquecp.com/pvalooza/tutorial_github.html</loc>
-    <lastmod>2026-11-23T15:11:58.209Z</lastmod>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
   </url>
   <url>
     <loc>https://ahenriquecp.com/pvalooza/programa.html</loc>
-    <lastmod>2026-11-23T15:11:58.207Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ahenriquecp.com/pvalooza/dias.html</loc>
-    <lastmod>2026-11-23T15:11:58.204Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ahenriquecp.com/pvalooza/tutorial_instalacao.html</loc>
-    <lastmod>2026-11-23T15:11:58.212Z</lastmod>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
   </url>
   <url>
     <loc>https://ahenriquecp.com/pvalooza/sobre.html</loc>
-    <lastmod>2026-11-23T15:11:58.208Z</lastmod>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ahenriquecp.com/pvalooza/dias.html</loc>
+    <lastmod>2026-11-23T15:12:35.788Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ahenriquecp.com/pvalooza/tutorial_github.html</loc>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
   </url>
   <url>
     <loc>https://ahenriquecp.com/pvalooza/tutorial_api_gemini_groq.html</loc>
-    <lastmod>2026-11-23T15:11:58.208Z</lastmod>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ahenriquecp.com/pvalooza/faq.html</loc>
+    <lastmod>2026-11-23T15:12:35.788Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ahenriquecp.com/pvalooza/tutorial_instalacao.html</loc>
+    <lastmod>2026-11-23T15:12:35.789Z</lastmod>
   </url>
 </urlset>
