@@ -24,7 +24,7 @@
 | **Suporte** | Discussions e Issues do repositório no GitHub |
 | **Gravação** | As aulas não serão gravadas |
 | **Certificação** | Não há certificado nesta edição. Pode-se emitir declaração de participação, conforme demanda |
-| **Calendário de seleção** | Inscrições até 15 de novembro de 2026 · resultado do sorteio, por e-mail, até 20 de novembro · sorteados expressam interesse até 15 de dezembro · lista final de participantes até 27 de dezembro |
+| **Calendário de seleção** | Inscrições encerradas em 15 de novembro de 2026 · resultado do sorteio, por e-mail, até 20 de novembro · sorteados expressam interesse até 15 de dezembro · lista final de participantes até 27 de dezembro |
 
 ---
 

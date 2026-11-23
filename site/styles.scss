@@ -372,3 +372,9 @@ html { scroll-behavior: auto; }
 .sobre-hero .sobre::after { display: none; }
 
 .pv-pagina table td:first-child { width: 26%; }
+
+// Inscrições encerradas
+.pv-botao.encerrado { background: transparent; color: $amarelo !important; border: 2px dashed $amarelo; cursor: default; text-decoration: none !important; }
+.pv-botao.encerrado:hover { transform: none; box-shadow: none; }
+.pv-linha-tempo li.feito::before { background: $ciano; content: "✓"; color: $noite; font-size: .8rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.pv-linha-tempo li.feito .data { text-decoration: line-through; text-decoration-color: $rosa; text-decoration-thickness: 3px; }

@@ -5,7 +5,7 @@ page-layout: full
 ---
 
 ```{=html}
-<div class="pv-faixa" aria-hidden="true"><div class="trilho"><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> </span><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> ONLINE <i>✺</i> </span></div></div>
+<div class="pv-faixa" aria-hidden="true"><div class="trilho"><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> </span><span>ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> ANÁLISE DE CONTEÚDO AUTOMATIZADA EM R <i>✺</i> 4 A 8 DE JANEIRO DE 2027 <i>✺</i> 160 VAGAS <i>✺</i> GRATUITO <i>✺</i> INSCRIÇÕES ENCERRADAS <i>✺</i> ONLINE <i>✺</i> </span></div></div>
 
 <section class="pv-hero pv-hero2">
   <svg class="pv-doodle d1" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4l6 17 18 1-14 11 5 18-15-10-15 10 5-18L6 22l18-1z" fill="none" stroke="#FFD400" stroke-width="3" stroke-linejoin="round"/></svg>
@@ -27,7 +27,7 @@ page-layout: full
       <span><b>15 horas</b> · online, pelo Google Meet</span>
       <span><b>160 vagas</b> · 80 por turno</span>
     </div>
-    <a class="pv-botao" href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">INSCREVA-SE</a>
+    <span class="pv-botao encerrado" role="status">INSCRIÇÕES ENCERRADAS</span>
     <a class="pv-botao secundario" href="#lineup">VER O LINE-UP</a>
   </div>
   <figure class="pv-hero2-cartaz">
@@ -96,13 +96,14 @@ page-layout: full
 <section id="sorteio" class="pv-sec escuro">
   <div class="in">
     <h2 class="pv-h2">SORTEIO E REGRAS</h2>
-    <p class="pv-sub">Inscrever-se não garante a vaga. A seleção é por sorteio entre inscritos elegíveis.</p>
+    <p class="pv-sub">As inscrições estão encerradas. A seleção é por sorteio entre inscritos elegíveis.</p>
     <details class="pv-acc pv-revela" open><summary><span class="t">COMO FUNCIONA</span><span class="selo">160 VAGAS</span></summary><div class="corpo"><p>O sorteio é feito entre quem preenche os requisitos do formulário, com <b>cotas por região, nível acadêmico e cor ou raça, e paridade de gênero</b>. O resultado é enviado por e-mail; quem for sorteado(a) confirma interesse, e a vaga de quem não confirmar passa à lista de espera.</p></div></details>
     <details class="pv-acc pv-revela"><summary><span class="t">PRÉ-REQUISITOS</span><span class="selo">R BÁSICO+</span></summary><div class="corpo"><p>R básico ou intermediário e um projeto (em andamento ou previsto) que envolva texto. É preciso computador com permissão para instalar R e RStudio, conta Google e disponibilidade nos 5 dias, no turno escolhido.</p></div></details>
     <details class="pv-acc pv-revela"><summary><span class="t">CERTIFICADO</span><span class="selo">SEM CERTIFICADO</span></summary><div class="corpo"><p>Não haverá certificado nesta edição. O formulário pergunta se há interesse em uma declaração de participação.</p></div></details>
     <details class="pv-acc pv-revela"><summary><span class="t">AULAS E APOIO</span><span class="selo">AO VIVO</span></summary><div class="corpo"><p>As aulas não serão gravadas. As dúvidas fora do Meet são respondidas pelas Discussions e Issues do repositório no GitHub (conta gratuita).</p></div></details>
     <details class="pv-acc pv-revela"><summary><span class="t">DADOS E PRIVACIDADE</span><span class="selo">LGPD</span></summary><div class="corpo"><p>Os dados, inclusive os de cor ou raça e de gênero (sensíveis), são usados apenas para as cotas e a paridade do sorteio e para organizar o curso. Os dados são apagados ao fim do curso, exceto os agregados e anônimos.</p></div></details>
-    <p class="pv-cta-centro"><a class="pv-botao" href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">INSCREVA-SE ATÉ 15/11</a></p>
+    <p class="pv-cta-centro"><span class="pv-botao encerrado" role="status">INSCRIÇÕES ENCERRADAS EM 15/11</span></p>
+    <p class="pv-sub">Obrigado a quem se inscreveu! O resultado do sorteio é enviado por e-mail.</p>
   </div>
 </section>
 
@@ -112,8 +113,8 @@ page-layout: full
   <div class="in">
     <h2 class="pv-h2 escuro-txt">CALENDÁRIO</h2>
     <ul class="pv-linha-tempo pv-revela">
-      <li><div class="data">Até 15 de novembro de 2026 <small>inscrições</small></div><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2-oOutoCCMwU2k0ZJ7mFym5xcKYJS_mbN-rxWK4q4XTCerg/viewform">Formulário de inscrição</a></li>
-      <li><div class="data">Até 20 de novembro <small>resultado do sorteio, por e-mail</small></div></li>
+      <li class="feito"><div class="data">15 de novembro de 2026 <small>inscrições encerradas</small></div></li>
+      <li><div class="data">20 de novembro <small>resultado do sorteio, por e-mail</small></div></li>
       <li><div class="data">Até 15 de dezembro <small>sorteados confirmam interesse</small></div></li>
       <li><div class="data">Até 27 de dezembro <small>lista final</small></div></li>
       <li><div class="data">4 a 8 de janeiro de 2027 <small>o festival</small></div></li>
